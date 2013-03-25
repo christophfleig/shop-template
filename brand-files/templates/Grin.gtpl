@@ -282,13 +282,13 @@
 {/template}
 
 {template .Advertisement}
-	<iframe style="position:absolute; left:0px; top:0px; width: 1190px; height:717px; outline: medium none; border: medium none; background: none" 
+<!--	<iframe style="position:absolute; left:0px; top:0px; width: 1190px; height:717px; outline: medium none; border: medium none; background: none" 
 		scrolling="no" 
 		frameborder="0" 
 		allowtransparency="true"
 		src="{OPTION('base-href-ad-mirror')}?brand={GrinEnv.brand}&amp;areas=banner;skyscraper&amp;hostpage={GrinEnv.handler}&amp;sector={get_sector(_ctx.maindata) || ''}"
 	>
-	</iframe>
+	</iframe>-->
 {/template}
 
 
