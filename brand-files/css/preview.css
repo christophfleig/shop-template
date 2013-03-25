@@ -1,0 +1,63 @@
+/*  Document preview Styles for GRIN Converted Documents */
+
+/* Main container, used for online presentation and epub */
+.grin-document { font-family: Arial, sans-serif; font-size: 10pt; colo: black; }
+
+/* 
+    Online use: pages 
+    epub use: pages and later chapters
+*/
+
+/* Global Web Presentation Styles */
+.document-section {}
+
+/* margins and paddings */
+.grin-document .document-section .no-padding-top { pading-top: 0; }
+.grin-document .document-section .no-padding-bottom { pading-bottom: 0; }
+
+.grin-document .document-section .no-margin-top { margin-top: 0; }
+.grin-document .document-section .no-margin-bottom { margin-bottom: 0; }
+.grin-document .document-section .no-margin-vertical { margin-top: 0; margin-bottom: 0; }
+
+.grin-document .document-section img { max-width: 100%; }
+.grin-document .document-section .pagenumber { display: none; }
+.grin-document .document-section .heading { margin-top: 2em; margin-bottom: 1em; }
+.grin-document .document-section .enumeration { margin-left: 3em; }
+
+/* Table of contents */
+.grin-document .document-section .index {  }
+.grin-document .document-section .index .chapter-number {  }
+.grin-document .document-section .index .chapter-headline {  }
+.grin-document .document-section .index .chapter-pointsto { float: right; clear: right;}
+
+/* Online Presentation styles */
+
+.web { margin: 0 -18px 0 -18px; }
+.web .document-section:first-child { border-top: 8px solid #f0f0f0; }   
+.web .document-section { overflow: hidden; border-bottom: 8px solid #f0f0f0; min-height: 500px; }   
+.web .document-section:last-child { border-bottom: none; }   
+.web .document-section p { line-height: 1.5em; margin: 1em 2em; text-align: justify; }
+.web .document-section .pagenumber { display: none; }
+
+/* admin on the web view */
+
+.web.admin {  }
+.web.admin p { border: 1px solid #ddd; }
+.web.admin p img { border: 2px dashed #FDBB3E; }
+.web.admin p span, .web.admin p b, .web.admin p i, .web.admin p u { padding-right: 4px; border-right: 2px solid #555; }
+.web.admin p span:hover, .web.admin p b:hover, .web.admin p i:hover, .web.admin p u:hover { background: #F7FB73; }
+.web.admin p b {  }
+.web.admin .pagenumber { color: #EE5500; }
+
+
+	/* .document-object img:hover { border: 1px solid #00FF00; } 
+	.bibliography-start { background: #FFFF99; }
+	.bibliography-end   { background: #FFFF99; }
+	.bibliography-line  { background: #FFFFCC; }
+	.paragraph          { text-align: justify; }
+	.index              { text-align: left; }
+	.enumeration		{ margin-left: 15px; }
+
+	.document-page { border: 1px solid #bbb; padding: 20px; margin-bottom: 20px; font-size: 14px; }
+	.document-page p { line-height: 200%; border: 1px solid white; }
+	.document-page p:hover { border: 1px solid #FBE0B1; }*/

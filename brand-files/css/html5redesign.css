@@ -1,0 +1,107 @@
+
+/* LoginPopup.gtpl */
+.w1of2-login-popup {width:304px; padding: 10px 1px 0 10px;}
+
+
+
+/* cbox TopMain layout */ 
+.cbox {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 16px;
+	padding-right: 10px;
+	padding-bottom: 16px;
+	padding-left: 10px;
+	position: relative;
+	background-color: #FFFFFF; 
+	border-radius: 15px 15px 15px 15px; 
+	box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15); 
+	-moz-box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15); 
+	-webkit-box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15);
+} 
+
+
+/* Tabbar */
+.page-document-preview .top-box {height: 28px; background:none; background-image:none;}
+div.top-box + div.cbox {border-radius: 15px 0px 15px 15px;}
+
+
+.cbox > div {margin-left: 8px; margin-right: 7px;} /* general margin between all of the content-blocks (direct div-childs) */ 
+
+/* width of the cbox, depends on div-class above. cbox can be used in all manners now */
+.article .cbox 		{margin-left: 10px;}
+.article .cbox > hr	{margin-left:-10px; width:610px; margin-top: 0px; margin-bottom: 0px; color: #E5E5E5; line-height:0; page-break-after:always; text-align:center;} /* ToDo: test on other Browsers; background-color:#E5E5E5;  border-width:0;*/
+.article .cbox > hr + .sub-section	{margin-left:-10px; padding-left: 18px; margin-right: -10px; padding-right:17px; padding-top: 10px; padding-bottom: 10px;} 
+.article .cbox .sub-section.bg-gray	{background-color: #F7F7F7;} /* F7F7F7 */
+.fullwidth .cbox 	{width: 932px;}
+.box2of3 .cbox		{width: 605px;}
+.popup .cbox		{width: 275px;}
+.aside .cbox 		{width: 290px;}
+
+
+/* Login-Popup only */ 
+.box-spacer {margin-bottom: 45px} /* defines the space between two Boxes */
+.form-row {margin-bottom: 10px;}
+form .form-row input {width: 98%;}
+.button-form-row { text-align: right; }
+
+
+
+/*	each content-block should be designed here	*/
+.content_book-meta	{width: 376px;}
+.content_author		{width: 90px;} 
+.content_social		{width: 180px; padding-left: 10px;} 
+.content_bookcover	{} /* the width of this Div-Element should be designed by the width of the image within */
+
+/* styling the content-block-elements of content_book-meta */
+.content_title {font-family: Regular,"Regular-ie",Arial,sans-serif; font-size: 22px; font-weight: normal; line-height: 100%; color: #282828; margin-bottom: 15px;}
+
+
+
+/* Main Buybuttons in the detail page  */
+.buybox-main {margin: 10px 5px 0px 0px;}
+.buybox-main form {float:left; margin-right: 5px;}
+.buybox-main form button span {background: none; background-image: none;}
+/* for Buybuttons in the sidebar (aside) add/use this style  */
+.aside .buybox-main form {float:right;}
+/* for Buybuttons at the end of the preview add/use this style  */
+.page-document-preview .buybox-main {padding-right: 30px;}
+.page-document-preview .buybox-main form {float:right;}
+
+
+.shopping-cart-button {
+	background-color: #cccccc;
+	padding: 10px 10px 10px 10px;
+	position: relative;
+	margin-top: 0px;
+	border-radius: 9px 9px 9px 9px; 
+	/*box-shadow: 0px 0px 6px #bbbbbb; */
+	-moz-box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15); 
+	-webkit-box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15);
+}
+
+
+/* designing book covers and all other pictures: width , height and shadow */
+/* there are 5 kind of cover sizes: original, thumb, normal, grin and profile */
+.picture-thumb { width: 35px; height: 50px; box-shadow: 0 0 4px #B0B0B0;} 
+.picture-related { width: 90px; height: 127px; box-shadow: 0 0 4px #B0B0B0;} 
+/* PLZ DONT USE:  .picture-profile { width: 90px; height: 127px; box-shadow: 0 0 4px #B0B0B0;} */
+.picture-normal { width: 150px; height: 213px; box-shadow: 0 0 4px #B0B0B0;} 
+.picture-big { width: 212px; height: 300px; box-shadow: 0 0 4px #B0B0B0;} 
+
+/* User-pictures with an unknown height/width-ratio use the 'unscaled' style */
+.unscaled-picture-thumb { width: 35px; max-height: 50px; box-shadow: 0 0 4px #B0B0B0;}
+.unscaled-picture-related {width: 90px; max-height: 127px; box-shadow: 0 0 4px #B0B0B0;}
+.unscaled-picture-normal {width: 150px; max-height: 213px; box-shadow: 0 0 4px #B0B0B0;}
+.unscaled-picture-big { width: 212px; max-height: 300px; box-shadow: 0 0 4px #B0B0B0;} 
+
+.unscaled-picture-related + p {margin-top: 2px;} /* text below the pictur */
+
+
+
+
+
+/* TEST */ 
+.cbox .middle-box {background: none; padding: 0px;}
+.breadcrumb {margin-left: 10px ;margin-bottom: 5px;}
+

@@ -1,0 +1,47 @@
+/*empty till now*/
+
+.header { padding: 19px 0 10px 0; } 
+
+
+/*Buttons and Colors*/
+.bg-home {background: #289D1F; color: white;} /*green*/
+.bg-action {background: #e66600;; color: white;} /*orange*/
+
+button.big.bg-action { background: url('/images/bg/orange-2x-buttons.png') no-repeat right -50px; color: white;}
+button.big.bg-action span { background: url('/images/bg/orange-2x-buttons.png') no-repeat top left; color: white;}
+button.big.icon.arrow.bg-action { background: url('/images/bg/orange-2x-buttons.png') no-repeat right -100px; color: white;}
+
+a.button.big.bg-action { background: url('/images/bg/orange-2x-buttons.png') no-repeat right -50px; color: white;}
+a.button.big.bg-action span { background: url('/images/bg/orange-2x-buttons.png') no-repeat top left; color: white;}
+a.button.big.icon.arrow.bg-action { background: url('/images/bg/orange-2x-buttons.png') no-repeat right -100px; color: white;}
+
+button.big.bg-home { background: url('/images/bg/green-2x-buttons.png') no-repeat right -50px; color: white;}
+button.big.bg-home span { background: url('/images/bg/green-2x-buttons.png') no-repeat top left; color: white;}
+button.big.icon.arrow.bg-home { background: url('/images/bg/green-2x-buttons.png') no-repeat right -100px; color: white;}
+
+a.button.big.bg-home { background: url('/images/bg/green-2x-buttons.png') no-repeat right -50px; color: white;}
+a.button.big.bg-home span { background: url('/images/bg/green-2x-buttons.png') no-repeat top left; color: white;}
+a.button.big.icon.arrow.bg-home { background: url('/images/bg/green-2x-buttons.png') no-repeat right -100px; color: white;}
+
+button.medium.bg-action { background: url('/images/bg/orange-medium-buttons.png') no-repeat right -50px; color: white;}
+button.medium.bg-action span { background: url('/images/bg/orange-medium-buttons.png') no-repeat top left; color: white;}
+button.medium.icon.shopping-cart.bg-action { background: url('/images/bg/orange-medium-buttons.png') no-repeat right -100px; color: white;}
+
+a.button.medium.bg-action { background: url('/images/bg/orange-medium-buttons.png') no-repeat right -50px; color: white;}
+a.button.medium.bg-action span { background: url('/images/bg/orange-medium-buttons.png') no-repeat top left; color: white;}
+a.button.medium.icon.shopping-cart.bg-action { background: url('/images/bg/orange-medium-buttons.png') no-repeat right -100px; color: white;}
+
+button.medium.bg-home { background: url('/images/bg/green-medium-buttons.png') no-repeat right -50px; color: white;}
+button.medium.bg-home span { background: url('/images/bg/green-medium-buttons.png') no-repeat top left; color: white;}
+button.medium.icon.shopping-cart.bg-home { background: url('/images/bg/green-medium-buttons.png') no-repeat right -100px; color: white;}
+
+a.button.medium.bg-home { background: url('/images/bg/green-medium-buttons.png') no-repeat right -50px; color: white;}
+a.button.medium.bg-home span { background: url('/images/bg/green-medium-buttons.png') no-repeat top left; color: white;}
+a.button.medium.icon.shopping-cart.bg-home { background: url('/images/bg/green-medium-buttons.png') no-repeat right -100px; color: white;}
+
+
+/* Styles in top userinfo */
+.top-login.top-dropdown-menu { width: 175px; }
+.top-login.top-dropdown-menu .user-account-dropdown { width: 175px; }
+
+
