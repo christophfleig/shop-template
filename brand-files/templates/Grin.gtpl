@@ -31,7 +31,7 @@
 
 	<div class="header">
 		<div class="identity">
-			<a href="{OPTION('base-href-main')}">
+			<!--<a href="{OPTION('base-href-main')}">
 				{brand_img('grin-logo-de.png',null,null)}
 				{*  NEW Logo - Needs to be implemented 
 				<img src="{OPTION('base-href-images')}{GrinEnv.brand}/{GrinEnv.brand}-logo{if GrinEnv.i_am_grin}-{GrinEnv.lang}{/if}.png"
@@ -44,7 +44,8 @@
 					 {else}
 						 width="220px" height="60px"
 					 {/if}
-					 /> *}
+					 /> *}-->
+				{NLS('Help::Customer::CompanyName')}
 			</a>
 		</div>
 		<div class="search">
