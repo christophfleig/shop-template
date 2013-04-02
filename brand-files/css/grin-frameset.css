@@ -196,13 +196,13 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
     border-bottom-left-radius: 20px; 
     border-top-right-radius: 5px; 
     border-bottom-right-radius: 5px;*/ 
-    height: 45px; 
+    height: 20px; 
     /*-moz-box-shadow: 1px 0px 2px #C4C4C4; 
     -webkit-box-shadow: 1px 0px 2px #C4C4C4; 
     box-shadow: 1px 0px 2px #C4C4C4;*/ 
     color: #737373; 
     display: inline-block;
-    float: center;
+    /*float: center;*/
 }
 .top-info .top-shopping-cart { top: -10px; margin-top: 10px; width: 280px; left: 70px; border: none; padding: 0px; /*border-right: 1px solid #EDEDED;*/ height: 45px; background: url('$BRANDIMGPATH$/wk_grin_com.jpg') 0px 13px no-repeat; }
 .top-info .user-info { position: absolute; left: 420px; top: 7px; }
