@@ -64,8 +64,8 @@
 		{call Widget.UserInfo.Container}
 	</div>
 	{* Menu *}
-	<div class="nav">
-		<!--<div class="main-menu">
+	<!--<div class="nav">
+		<div class="main-menu">
 			<ul>
 				{if RegExp("^\/[a-z]{2}\/$").test(GrinEnv.request_full_path)}
                 <li class="nav_left_on"
@@ -129,10 +129,10 @@
 					</li>
 				{/if}
 			</ul>
-		</div>-->
-		<div class="nav_bg">
+		</div>
+		<!--<div class="nav_bg">
 			
-			<!--<div class="header-items">
+			<div class="header-items">
 				<a href="{OPTION('base-href-blog')}">{NLS('Page::Menu::Blog')}</a>
 			</div>
 			<div class="header-items">
@@ -140,15 +140,15 @@
 			</div>
 			<div class="header-items-images">
 				{link_to(brand_img('grin_fb.png',null,'grin-twitter-fb'),'http://www.facebook.com/grincom',null,{target: '_blank'})}
-			</div>-->
-		</div>
-		<!--<div class="nav_right">
+			</div>
 		</div>-->
+		<div class="nav_right">
+		</div>
 		{*    Upload - button disabled
 		<div class="color-white upload-area-position upload-area">
 			<a href="{OPTION('base-href-upload',{lang:GrinEnv.lang})}" class="upload-area-caption cursor-pointer">{NLS('Page::Upload::WebartsLongMessage')}</a>
 		</div>  *}
-	</div>
+	</div>-->
 {/template}
 
 {*

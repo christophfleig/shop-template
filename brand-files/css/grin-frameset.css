@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
 .header .identity .brand-name {text-shadow: 2px 2px #aaaaaa; font-size: 300%; text-transform: capitalize; text-decoration: none; font-family: Avalon,Wide Latin;}
 .header { background: white; }
 .header .identity { padding: 10px 0 12px 0px; color: #737373; }
-.search { width: 298px; background: transparent; border-radius: 20px; float: left; position: relative; top: -3px; margin-right: 25px; }
+.search { /*width: 298px;*/ background: transparent; border-radius: 20px; /*float: left;*/ position: relative; top: -3px; margin-right: 25px; }
 .search-input { border-radius: 20px; width: 258px; background: url("$BRANDIMGPATH$/grin-lupe.png") no-repeat 270px 4px; border: 1px solid #C1C1C1; padding: 4px 20px 4px 20px; }
 .search form { background: white; }
 
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
 a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 .etrusted-logo { height: 112%; position: relative; top: -2px; }
 
-.top-info {left: 398px; width: 587px; /*border: 1px solid #DDD; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;*/ height: 45px; /*-moz-box-shadow: 1px 0px 2px #C4C4C4; -webkit-box-shadow: 1px 0px 2px #C4C4C4; box-shadow: 1px 0px 2px #C4C4C4;*/ color: #737373; }
+.top-info {/*left: 398px; width: 587px; border: 1px solid #DDD; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;*/ height: 45px; /*-moz-box-shadow: 1px 0px 2px #C4C4C4; -webkit-box-shadow: 1px 0px 2px #C4C4C4; box-shadow: 1px 0px 2px #C4C4C4;*/ color: #737373; }
 .top-info .top-shopping-cart { top: -10px; margin-top: 10px; width: 280px; left: 70px; border: none; padding: 0px; /*border-right: 1px solid #EDEDED;*/ height: 45px; background: url('$BRANDIMGPATH$/wk_grin_com.jpg') 0px 13px no-repeat; }
 .top-info .user-info { position: absolute; left: 420px; top: 7px; }
 #language-select-span { left: -70px !important; top: -8px; z-index: 200; border: 1px solid #DDD; border-left: 1px solid #EDEDED; background: white url('/images/icons/down-arrow.png') 95px 19px no-repeat; text-align: center; width: 115px; height: 30px; padding: 15px 0 0 0; color: #737373; }
