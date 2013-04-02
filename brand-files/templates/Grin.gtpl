@@ -201,10 +201,6 @@
 				<li>{link_to_static(NLS('Page::Imprint::Privacy'),'privacy.html',null)}</li>
 				<li>{link_to_static(NLS('Help::UsersAndBuyers::Section6::Headline'),'help/buyers#legal',null)}</li>
 			</ul>
-			<div class="footer-1st-element">Copyright</div>
-			<ul>
-				{NLS('Page::Footer::Copyright2')}
-			</ul>
 		</div>
 		<div class="column-big">
 			{NLS('Page::Footer::AboutGRIN')}
