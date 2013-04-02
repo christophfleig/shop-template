@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
 
 /* Header */
 .header .identity .brand-name {text-shadow: 2px 2px #aaaaaa; font-size: 300%; text-transform: capitalize; text-decoration: none; font-family: Avalon,Wide Latin;}
-.header { background: white; }
+.header { background: white; margin: 50px 0px;}
 .header .identity { padding: 10px 0 12px 0px; color: #737373;}
 .identity {
      display: inline-block; 
