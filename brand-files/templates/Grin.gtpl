@@ -51,7 +51,7 @@
 	</div>
 	{* Menu *}
 	<div class="nav">
-		<div class="main-menu">
+		<!--<div class="main-menu">
 			<ul>
 				{if RegExp("^\/[a-z]{2}\/$").test(GrinEnv.request_full_path)}
                 <li class="nav_left_on"
@@ -115,7 +115,7 @@
 					</li>
 				{/if}
 			</ul>
-		</div>
+		</div>-->
 		<div class="nav_bg">
 			<div class="search">
 				{Call Structure.SearchForm.Main}
