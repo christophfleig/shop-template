@@ -69,7 +69,7 @@ pre { overflow: auto; }
 .header-menu ul li.drop-down-arrow { padding: 1px 0px 2px 0px; }
 .header-menu ul li.drop-down-arrow:hover { padding-bottom: 0px; }
 .header-menu ul li ul { margin: 0px; padding: 0px; list-style-position: outside; visibility: hidden; height: 0px; }
-.ie7 .header-menu ul li ul { margin: 0px; padding: 0px; list-style-position: outside; visivility: hidden; width: 160px; height: 0px; }
+.ie7 .header-menu ul li ul { margin: 0px; padding: 0px; list-style-position: outside; visibility: hidden; width: 160px; height: 0px; }
 .opera .header-menu ul li ul { margin: 0px; padding: 0px; list-style-position: outside; display: none; visibility: visible; width: 160px; height: 0px; }
 .header-menu ul li:hover ul { visibility: visible; block; height: auto; }
 .opera .header-menu ul li:hover ul { display: block; block; height: auto; }
