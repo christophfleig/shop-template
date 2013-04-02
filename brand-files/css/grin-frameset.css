@@ -170,7 +170,11 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
 /* Header */
 .header .identity .brand-name {text-shadow: 2px 2px #aaaaaa; font-size: 300%; text-transform: capitalize; text-decoration: none; font-family: Avalon,Wide Latin;}
 .header { background: white; }
-.header .identity { padding: 10px 0 12px 0px; color: #737373; display: inline-block; float: left;}
+.header .identity { padding: 10px 0 12px 0px; color: #737373;}
+.identity {
+     display: inline-block; 
+     float: left;
+}
 .search { /*width: 298px;*/ background: transparent; border-radius: 20px; /*float: left;*/ position: relative; /*top: -3px; margin-right: 25px;*/ display: inline-block; }
 .search-input { border-radius: 20px; width: 258px; background: url("$BRANDIMGPATH$/grin-lupe.png") no-repeat 270px 4px; border: 1px solid #C1C1C1; padding: 4px 20px 4px 20px; }
 .search form { background: white; }
