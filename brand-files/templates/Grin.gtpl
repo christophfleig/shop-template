@@ -168,73 +168,38 @@
 {meta override=true}	
 	<div class="footer">
 		<div class="column">
-			<div class="footer-1st-element">{NLS('Page::Menu::General')}</div>
+			<div class="footer-1st-element">{NLS('Page::Menu::About')}</div>
 			<ul>
-				<li>{link_to_static(NLS('Page::Menu::Home'),'',null)}</li>
-				<li>{link_to_static(NLS('Page::Commons::BecomeAnAuthor'),'help/author',null)}</li>
-				<li>{link_to_static(NLS('Page::Menu::Catalogue'),'catalog/',null)}</li>
-			</ul>
-			<ul>
-				<li><a href="{OPTION('base-href-network')}">{NLS('Page::Menu::People')}</a></li>
-				<li><a href="{OPTION('base-href-blog')}">{NLS('Page::Menu::Blog')}</a></li>
-			</ul>
-			<ul>
-				<li>{link_to_static(NLS('Page::Menu::About'),'about.html',null)}</li>
-				<li>{link_to_static(NLS('Page::Menu::About::Jobs'),'jobs.html',null)}</li>
-				<li>{link_to_static(NLS('Page::Menu::About::Press'),'press.html',null)}</li>
-				<li>{link_to_static(NLS('Page::Partners'),'partners.html',null)}</li>
-				<li>{link_to_static(NLS('Page::Imprint::Privacy'),'privacy.html',null)}</li>
-				<li>{link_to_static(NLS('Page::Imprint'),'contact.html',null)}</li>
+				<li>{link_to_static(NLS('Page::Menu::Blog'),'',null)}</li>
+				<li>{link_to_static(NLS('Page::Menu::About::Team'),'',null)}</li>
+				<li>{link_to_static(NLS('Page::Menu::About::Contact'),'',null)}</li>
+				<li>{link_to_static(NLS('Page::Menu::About::Facebook'),'',null)}</li>
+				<li>{link_to_static(NLS('Page::Menu::About::Twitter'),'',null)}</li>
 			</ul>
 		</div>
 		<div class="column">
-			<div class="footer-1st-element">{NLS('Page::Menu::Authors')}</div>
+			<div class="footer-1st-element">{NLS('Page::Menu::Support')}</div>
 			<ul>
-				<li>{link_to_static(NLS('Page::Commons::BecomeAnAuthor'),'help/author',null)}</li>
-				<li>{link_to_static(NLS('Help::Navigation::YourOptions'),'help/author#options',null)}</li>
-				<li>{link_to_static(NLS('Help::Navigation::TheChannels'),'help/author#channels',null)}</li>
-				<li>{link_to_static(NLS('Help::Groups::Section3::Headline'),'help/author#series',null)}</li>
-				<li>{link_to_static(NLS('Help::Navigation::TypesAndFormats'),'help/author#formats',null)}</li>
-				<li>{link_to_static(NLS('Help::Authors::Section8::Headline'),'help/author#royalties',null)}</li>
-			</ul>
-			<div class="footer-1st-element">{NLS('Page::Commons::Readers')}&#160;&&#160;{NLS('Page::BuyerInformation')}</div>
-			<ul>
-				<li>{link_to_static(NLS('Help::UsersAndBuyers::Section1::Headline'),'help/buyers',null)}</li>
-				<li>{link_to_static(NLS('Help::UsersAndBuyers::Section2::Headline'),'help/buyers#ebooks',null)}</li>
-				<li>{link_to_static(NLS('Help::UsersAndBuyers::Section3::Headline'),'help/buyers#books',null)}</li>
+				<li>{link_to_static(NLS('Help::UsersAndBuyers::FAQ'),'',null)}</li>
 				<li>{link_to_static(NLS('Help::UsersAndBuyers::Section4::Headline'),'help/buyers#payment',null)}</li>
+			</ul>
+		</div>
+		<div class="column">
+			<div class="footer-1st-element">{NLS('Page::Menu::About::Contact')}</div>
+			<ul>
+				<li>{NLS('Help::Customer::CompanyName')}</li>
+				<li>{NLS('Help::Customer::Street')}</li>
+				<li>{NLS('Help::Customer::PLZ')}{NLS('Help::Customer::Town')}</li>
+				<li>{NLS('Help::Customer::Telephon')}{NLS('Help::Customer::Telephonenumber')}</li>
+				<li>{NLS('Help::Customer::Mail')}{NLS('Help::Customer::Mailto')}</li>
+			</ul>
+		</div>
+		<div class="column">
+			<div class="footer-1st-element">{NLS('Help::Customer::CompanyName')}</div>
+			<ul>
+				<li>{link_to_static(NLS('Page::Imprint'),'contact.html',null)}</li>
+				<li>{link_to_static(NLS('Page::Imprint::Privacy'),'privacy.html',null)}</li>
 				<li>{link_to_static(NLS('Help::UsersAndBuyers::Section6::Headline'),'help/buyers#legal',null)}</li>
-				<li>{link_to_static(NLS('Help::UsersAndBuyers::Section7::Headline'),'help/buyers#plagiarism',null)}</li>
-			</ul>
-		</div>
-		<div class="column">
-			<div class="footer-1st-element">{NLS('Page::Group::Groups')}</div>
-			<ul>
-				<li>{link_to_static(NLS('Help::Groups::Section1::Headline'),'help/groups',null)}</li>
-				<li>{link_to_static(NLS('Help::Groups::Section2::Headline'),'help/groups#create',null)}</li>
-				<li>{link_to_static(NLS('Help::Groups::Section3::Headline'),'help/groups#series',null)}</li>
-			</ul>
-			<div class="footer-1st-element">{NLS('Help::Tab::Marketing')}</div>
-			<ul>
-				<li>{link_to_static(NLS('Help::Marketingtips::Section1::Headline'),'help/marketing',null)}</li>
-				<li>{link_to_static(NLS('Help::Marketingtips::Section2::Headline'),'help/marketing#social',null)}</li>
-				<li>{link_to_static(NLS('Help::Marketingtips::Section3::Headline'),'help/marketing#blogs',null)}</li>
-				<li>{link_to_static(NLS('Help::Marketingtips::Section4::Headline'),'help/marketing#tips',null)}</li>
-			</ul>
-			<div class="footer-1st-element">{NLS('Help::Tab::Dissertations')}</div>
-			<ul>
-				<li>{link_to_static(NLS('Help::Dissertations::Section1::Headline'),'help/dissertation',null)}</li>
-				<li>{link_to_static(NLS('Help::Dissertations::Section2::Headline'),'help/dissertation#copies',null)}</li>
-				<li>{link_to_static(NLS('Help::Dissertations::Section3::Headline'),'help/dissertation#formats',null)}</li>
-			</ul>
-		</div>
-		<div class="column">
-			<div class="footer-1st-element">{NLS('Help::Tab::Affiliates')}</div>
-			<ul>
-				<li>{link_to_static(NLS('Ambassador::BecomeAmbassador'),'help/partner',null)}</li>
-				<li>{link_to_static(NLS('Page::Menu::PartnerProgram::EnrollAuthors'),'help/partner#enroll',null)}</li>
-				<li>{link_to_static(NLS('Help::Affiliates::Section2::Headline'),'help/partner#earn',null)}</li>
-				<li>{link_to_static(NLS('Help::Affiliates::Section3::Headline'),'help/partner#services',null)}</li>
 			</ul>
 			<div class="footer-1st-element">Copyright</div>
 			<ul>
