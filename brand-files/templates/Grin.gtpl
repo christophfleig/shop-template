@@ -47,6 +47,19 @@
 					 /> *}
 			</a>
 		</div>
+		<div class="search">
+				{Call Structure.SearchForm.Main}
+					{if GrinEnv.i_am_hausarbeiten}
+						{param placeholdertext=NLS('Page::Search::AllAndFreeTexts', 
+							{alltexts: format_number(_ctx.brand_statistics.document_count), 
+							freetexts: format_number(_ctx.brand_statistics.free_document_count)}
+						)}
+					{else}
+						{param placeholdertext=NLS('Page::Search::AllTexts', 
+							{alltexts: format_number(_ctx.brand_statistics.document_count)})}
+					{/if}
+				{/Call}
+			</div>
 		{call Widget.UserInfo.Container}
 	</div>
 	{* Menu *}
@@ -117,19 +130,7 @@
 			</ul>
 		</div>-->
 		<div class="nav_bg">
-			<div class="search">
-				{Call Structure.SearchForm.Main}
-					{if GrinEnv.i_am_hausarbeiten}
-						{param placeholdertext=NLS('Page::Search::AllAndFreeTexts', 
-							{alltexts: format_number(_ctx.brand_statistics.document_count), 
-							freetexts: format_number(_ctx.brand_statistics.free_document_count)}
-						)}
-					{else}
-						{param placeholdertext=NLS('Page::Search::AllTexts', 
-							{alltexts: format_number(_ctx.brand_statistics.document_count)})}
-					{/if}
-				{/Call}
-			</div>
+			
 			<!--<div class="header-items">
 				<a href="{OPTION('base-href-blog')}">{NLS('Page::Menu::Blog')}</a>
 			</div>
