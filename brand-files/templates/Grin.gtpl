@@ -130,7 +130,7 @@
 				{/if}
 			</ul>
 		</div>
-		<!--<div class="nav_bg">
+		<div class="nav_bg">
 			
 			<div class="header-items">
 				<a href="{OPTION('base-href-blog')}">{NLS('Page::Menu::Blog')}</a>
@@ -141,7 +141,7 @@
 			<div class="header-items-images">
 				{link_to(brand_img('grin_fb.png',null,'grin-twitter-fb'),'http://www.facebook.com/grincom',null,{target: '_blank'})}
 			</div>
-		</div>-->
+		</div>
 		<div class="nav_right">
 		</div>
 		{*    Upload - button disabled
