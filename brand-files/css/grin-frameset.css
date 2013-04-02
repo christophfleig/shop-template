@@ -255,18 +255,18 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
     .nav_main_on a { text-decoration: none; color: white; }
 
     .nav_bg { 
-        background: #dadada; /* Old browsers */
+        /*background: #dadada; /* Old browsers */
         background-image: url($BRANDIMGPATH$/gradient-bg.png);
         background: -moz-linear-gradient(top,  #dadada 0%, #bfbfbf 69%, #abaaaa 100%); /* FF3.6+ */
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dadada), color-stop(69%,#bfbfbf), color-stop(100%,#abaaaa)); /* Chrome,Safari4+ */
         background: -webkit-linear-gradient(top,  #dadada 0%,#bfbfbf 69%,#abaaaa 100%); /* Chrome10+,Safari5.1+ */
         background: -o-linear-gradient(top,  #dadada 0%,#bfbfbf 69%,#abaaaa 100%); /* Opera 11.10+ */
         background: -ms-linear-gradient(top,  #dadada 0%,#bfbfbf 69%,#abaaaa 100%); /* IE10+ */
-        background: linear-gradient(to bottom,  #dadada 0%,#bfbfbf 69%,#abaaaa 100%); /* W3C */
+        background: linear-gradient(to bottom,  #dadada 0%,#bfbfbf 69%,#abaaaa 100%); /* W3C */*/
         height: 37px; 
         float: left; 
-        width: 460px; 
-        padding: 20px 0 0 30px; 
+        width: auto; 
+        padding: 20px 0 0 20px; 
         border: 1px solid #c4c4c4; 
         border-right: none; 
     }
