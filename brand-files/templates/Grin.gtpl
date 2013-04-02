@@ -47,7 +47,7 @@
 					 /> *}
 			</a>
 		</div>
-		<!--{call Widget.UserInfo.Container}-->
+		{call Widget.UserInfo.Container}
 	</div>
 	{* Menu *}
 	<div class="nav">
