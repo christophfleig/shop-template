@@ -179,30 +179,30 @@
 			<ul>
 				<li>{link_to_static(NLS('Page::Menu::Blog'),'',null)}</li>
 				<li>{link_to_static(NLS('Page::Menu::About::Team'),'',null)}</li>
-				<li>{link_to_static(NLS('Page::Menu::About::Contact'),'',null)}</li>
-				<li>{link_to_static(NLS('Page::Menu::About::Facebook'),'',null)}</li>
-				<li>{link_to_static(NLS('Page::Menu::About::Twitter'),'',null)}</li>
+				<li>{link_to_static(NLS('Page::StandardShop::About::Contact'),'',null)}</li>
+				<li>{link_to_static(NLS('Page::StandardShop::About::Facebook'),'',null)}</li>
+				<li>{link_to_static(NLS('Page::StandardShop::About::Twitter'),'',null)}</li>
 			</ul>
 		</div>
 		<div class="column">
-			<div class="footer-1st-element">{NLS('Page::Menu::Support')}</div>
+			<div class="footer-1st-element">{NLS('Page::StandardShop::Support')}</div>
 			<ul>
-				<li>{link_to_static(NLS('Help::UsersAndBuyers::FAQ'),'',null)}</li>
-				<li>{link_to_static(NLS('Help::UsersAndBuyers::Section4::Headline'),'help/buyers#payment',null)}</li>
+				<li>{link_to_static(NLS('Help::StandardShop::UsersAndBuyers::FAQ'),'',null)}</li>
+				<li>{link_to_static(NLS('Help::StandardShop::UsersAndBuyers::Section4::Headline'),'help/buyers#payment',null)}</li>
 			</ul>
 		</div>
 		<div class="column">
-			<div class="footer-1st-element">{NLS('Page::Menu::About::Contact')}</div>
+			<div class="footer-1st-element">{NLS('Page::StandardShop::About::Contact')}</div>
 			<ul>
-				<li>{NLS('Help::Customer::CompanyName')}</li>
-				<li>{NLS('Help::Customer::Street')}</li>
-				<li>{NLS('Help::Customer::PLZ')}{NLS('Help::Customer::Town')}</li>
-				<li>{NLS('Help::Customer::Telephon')}{NLS('Help::Customer::Telephonenumber')}</li>
-				<li>{NLS('Help::Customer::Mail')}{NLS('Help::Customer::Mailto')}</li>
+				<li>{NLS('Help::StandardShop::CompanyName')}</li>
+				<li>{NLS('Help::StandardShop::Street')}</li>
+				<li>{NLS('Help::StandardShop::PLZ')}{NLS('Help::Customer::Town')}</li>
+				<li>{NLS('Help::StandardShop::Telephon')}{NLS('Help::Customer::Telephonenumber')}</li>
+				<li>{NLS('Help::StandardShop::Mail')}{NLS('Help::Customer::Mailto')}</li>
 			</ul>
 		</div>
 		<div class="column">
-			<div class="footer-1st-element">{NLS('Help::Customer::CompanyName')}</div>
+			<div class="footer-1st-element">{NLS('Help::StandardShop::CompanyName')}</div>
 			<ul>
 				<li>{link_to_static(NLS('Page::Imprint'),'contact.html',null)}</li>
 				<li>{link_to_static(NLS('Page::Imprint::Privacy'),'privacy.html',null)}</li>
