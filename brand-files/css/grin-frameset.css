@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
 
 /* Header */
 .header .identity .brand-name {text-shadow: 2px 2px #aaaaaa; font-size: 300%; text-transform: capitalize; text-decoration: none; font-family: Avalon,Wide Latin;}
-.header { background: white; width: 986px; position: fixed; top: 0;}
+.header { background: white; width: 986px; top: 0; z-index: 1000;}
 .986px .identity { padding: 10px 0 12px 0px; color: #737373;}
 .identity {
      display: inline-block; 
@@ -343,7 +343,7 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 .footer li { margin: 0 0 4px 0; }
 .footer p { margin: 0 0 10px 0; line-height: 1.4em; }
 .footer-1st-element { margin: 0 0 8px 0; font-size: 14px; }
-.column { width: 15%; float: left; margin: 0 2% 0 0; }
+.column { width: 25%; float: left; margin: 0 2% 0 0; }
 .column-big { float: left; width: 32%; }
 .social-buttons { margin: 20px 0 0 0; padding-left: 75px; }
 .social-buttons img { float: right; margin: -7px 0 0 6px; }
@@ -523,7 +523,7 @@ section.upload-banner-boxes { animation: target-show 1.0s 1; -webkit-animation: 
 
 /* Pictures */
 /* Misc */
-.page { background: #EBEBEB; overflow: visible; width: 986px; position:relative;}
+.page { background: #EBEBEB; overflow: visible; width: 986px; position:relative; margin-top: 50px;}
 .page-topics-item, .page-subjects-item { width: 50%; height: 50px; padding: 10px 0; border-bottom: 1px solid #E5E5E5; float: left; color: #B3B3B3; }
 .page-topics-item a { text-decoration: none; }
 .page-subjects-item a { text-decoration: none; }
