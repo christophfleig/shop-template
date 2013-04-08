@@ -522,6 +522,11 @@ section.upload-banner-boxes { animation: target-show 1.0s 1; -webkit-animation: 
 /* ------------------------------ */
 
 /* Pictures */
+.picture {
+    display:block;
+    background: url($BRANDIMGPATH$/head.jpg);
+}
+
 /* Misc */
 .page { background: #EBEBEB; overflow: visible; width: 986px; position:relative; margin-top: 50px;}
 .page-topics-item, .page-subjects-item { width: 50%; height: 50px; padding: 10px 0; border-bottom: 1px solid #E5E5E5; float: left; color: #B3B3B3; }

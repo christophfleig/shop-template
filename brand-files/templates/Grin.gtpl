@@ -64,6 +64,7 @@
 		{call Widget.UserInfo.Container}
 	</div>
 	{* Menu *}
+	<!--Not needed in this Template-->
 	<!--<div class="nav">
 		<div class="main-menu">
 			<ul>
@@ -149,6 +150,8 @@
 			<a href="{OPTION('base-href-upload',{lang:GrinEnv.lang})}" class="upload-area-caption cursor-pointer">{NLS('Page::Upload::WebartsLongMessage')}</a>
 		</div>  *}
 	</div>-->
+	<div class="picture">
+	<div>
 {/template}
 
 {*
