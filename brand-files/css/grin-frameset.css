@@ -524,7 +524,6 @@ section.upload-banner-boxes { animation: target-show 1.0s 1; -webkit-animation: 
 /* Pictures */
 .picture {
     display:block;
-    background: url($BRANDIMGPATH$/head.jpg);
     border-top: 2px solid grey;
     padding-top: 5px;
 }
