@@ -204,7 +204,7 @@
 				<li>{link_to_static(NLS('Help::UsersAndBuyers::Section6::Headline'),'help/buyers#legal',null)}</li>
 			</ul>
 		</div>
-		<div class="column-big">
+		<!--<div class="column-big">
 			{NLS('Page::Footer::AboutGRIN')}
 			<div class="social-buttons">
 				{NLS('Page::Footer::RecommendGRIN')}
@@ -212,7 +212,7 @@
 				{link_to(brand_img('grin_fb.png',null,null),'http://www.facebook.com/grincom',null,{target: '_blank'})}
 				{link_to(brand_img('grin_twitter.png',null,null),'http://www.twitter.com/grin_com',null,{target:'_blank'})}
 			</div>
-		</div>
+		</div>-->
 		<div class="clear-all"></div>
 	</div>
 {/template}
