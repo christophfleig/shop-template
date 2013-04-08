@@ -343,7 +343,7 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 .footer li { margin: 0 0 4px 0; }
 .footer p { margin: 0 0 10px 0; line-height: 1.4em; }
 .footer-1st-element { margin: 0 0 8px 0; font-size: 14px; }
-.column { width: 25%; float: left; margin: 0 2% 0 0; }
+.column { width: 23%; float: left; margin: 0 2% 0 0; }
 .column-big { float: left; width: 32%; }
 .social-buttons { margin: 20px 0 0 0; padding-left: 75px; }
 .social-buttons img { float: right; margin: -7px 0 0 6px; }
