@@ -148,10 +148,10 @@
 		{*    Upload - button disabled
 		<div class="color-white upload-area-position upload-area">
 			<a href="{OPTION('base-href-upload',{lang:GrinEnv.lang})}" class="upload-area-caption cursor-pointer">{NLS('Page::Upload::WebartsLongMessage')}</a>
-		</div>  *}
-	</div>-->
+		</div>  *}-->
 	<div class="picture">
 	<div>
+	</div>
 {/template}
 
 {*
