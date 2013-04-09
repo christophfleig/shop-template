@@ -373,7 +373,7 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 
 /* Heading Banner */
 
-.heading page-wrapper {
+.heading >*:first-child {
     padding: 0px !important;
     margin: 0px !important;
     border-top: 2px solid grey;
