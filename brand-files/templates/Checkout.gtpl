@@ -17,6 +17,7 @@
 {/template}
 
 {template .Shoppingcart.Layout}
+	{meta override=true}
 	{call Structure.Layout.Fullwidth}
 {/template}
 
