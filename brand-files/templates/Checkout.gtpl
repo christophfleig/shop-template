@@ -16,6 +16,10 @@
 	{meta override=true}
 {/template}
 
+{template .Shoppingcart.Layout}
+	{call Structure.Layout.Fullwidth}
+{/template}
+
 {template .Shoppingcart.Main}
 	{meta override=true}
 	{if !_.document_transactions.length}
