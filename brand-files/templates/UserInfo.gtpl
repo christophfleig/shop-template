@@ -80,7 +80,7 @@
 				{login().shoppingcart_account.document_transactions.length} {if login().shoppingcart_account.document_transactions.length == 1}{NLS('web::www.grin.com::Page::Sidebar::ShoppingCart::Item')}{else}{NLS('web::www.grin.com::Page::Sidebar::ShoppingCart::Items')}{/if}&#160;|&#160;<b>{login().shoppingcart_account.sum_gross[0].formatted}</b>
 			{else}
 				<span class="wk-link"><a href="{OPTION('base-href-shoppingcart')}">{NLS('Page::ShoppingCart::Title')}</a></span>
-				0 {NLS('web::www.grin.com::Page::Sidebar::ShoppingCart::Items')}&#160;|&#160;{zero_amount()}
+				0 {NLS('web::www.grin.com::Page::Sidebar::ShoppingCart::Items')}&#160;|&#160;
 			{/if}<br/>
 		</span> 
 	</span> 
