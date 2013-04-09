@@ -371,7 +371,13 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
     0% { opacity: 0; }
 }
 
+/* Heading Banner */
 
+.heading page-wrapper {
+    padding: 0px !important;
+    margin: 0px !important;
+    border-top: 2px solid grey;
+}
 
 /* Banner / Slider */
 
@@ -524,10 +530,6 @@ section.upload-banner-boxes { animation: target-show 1.0s 1; -webkit-animation: 
 /* ------------------------------ */
 
 /* Pictures */
-.picture {
-    display:block;
-    border-top: 2px solid grey;
-    padding-top: 5px;
 }
 
 /* Misc */
