@@ -62,9 +62,6 @@
 				{/Call}
 			</div>
 		{call Widget.UserInfo.Container}
-		<div class="picture">
-		{brand_img('head.jpg',null,null)}
-		</div>
 	</div>
 	{* Menu *}
 	<!--Not needed in this Template-->
