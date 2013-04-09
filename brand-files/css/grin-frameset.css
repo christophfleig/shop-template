@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
 
 /* Header */
 .header .identity .brand-name {text-shadow: 2px 2px #aaaaaa; font-size: 300%; text-transform: capitalize; text-decoration: none; font-family: Avalon,Wide Latin;}
-.header { background: white; width: 986px; top: 0; z-index: 1000; }
+.header { background: white; width: 986px; top: 0; z-index: 1000; border-bottom: 2px solid grey; }
 .986px .identity { padding: 10px 0 12px 0px; color: #737373;}
 .identity {
      display: inline-block; 
@@ -376,7 +376,6 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 .heading >*:first-child {
     padding-top: 5px;
     margin: 0px !important;
-    border-top: 2px solid grey;
 }
 
 /* Banner / Slider */
