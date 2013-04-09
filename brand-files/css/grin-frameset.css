@@ -107,7 +107,7 @@
 /* structure */
 
 .header, .nav, .visual, .page, .footer, .popup-container {margin: 0px auto;}
-.sidebar { width: 268px; }
+.sidebar { width: 23%; }
 .article { width: 714px!important; padding-top: 0!important; }
 .visual.home.tabbar { margin-bottom: 15px; margin-top: -5px; }
 .cbox.tabbar.first { margin-top: 30px!important; }
@@ -155,8 +155,8 @@ a:hover {color: #289d1f;}
 
 
 .page {z-index: 1; overflow:hidden; background: #FFFFFF !important;}
-.left-sidebar .main {float: right; overflow: visible; border-left: 1px solid #D9D9D9; width: 714px;}
-.right-sidebar .heading {padding-top:5px; background: #FFFFFF;}
+.left-sidebar .main {float: right; overflow: visible; border-left: 1px solid #D9D9D9; width: 76%;}
+.right-sidebar .heading {padding-top:10px; background: #FFFFFF;}
 
 .page h4 {font-size: 20px; font-weight: bold;}
 
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
 
 /* Header */
 .header .identity .brand-name {text-shadow: 2px 2px #aaaaaa; font-size: 300%; text-transform: capitalize; text-decoration: none; font-family: Avalon,Wide Latin;}
-.header { background: white; width: 986px; top: 0; z-index: 1000; border-bottom: 2px solid grey; }
+.header { background: white; width: 986px; top: 0; z-index: 1000; border-bottom: 2px solid grey; padding-bottom: 10px;}
 .986px .identity { padding: 10px 0 12px 0px; color: #737373;}
 .identity {
      display: inline-block; 
