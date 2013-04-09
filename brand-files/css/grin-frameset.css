@@ -107,8 +107,8 @@
 /* structure */
 
 .header, .nav, .visual, .page, .footer, .popup-container {margin: 0px auto;}
-.sidebar { width: 338px; }
-.article { width: 644px!important; padding-top: 0!important; }
+.sidebar { width: 268px; }
+.article { width: 714px!important; padding-top: 0!important; }
 .visual.home.tabbar { margin-bottom: 15px; margin-top: -5px; }
 .cbox.tabbar.first { margin-top: 30px!important; }
 .cbox.tabbar .tabs { top: -28px!important; }
