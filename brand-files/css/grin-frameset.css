@@ -530,6 +530,9 @@ section.upload-banner-boxes { animation: target-show 1.0s 1; -webkit-animation: 
 /* ------------------------------ */
 
 /* Pictures */
+
+.head-picture {
+    width: 100%;
 }
 
 /* Misc */
