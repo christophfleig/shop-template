@@ -24,13 +24,14 @@
   {/if}
 {/template}
 
-{*{template .Sidebar}
-  {if GrinEnv.test_group == 'B'}
+{template .Sidebar}
+  {meta override=true}
+  {*{if GrinEnv.test_group == 'B'}
     {call .TestGroupB.SidebarAuthorBox}
   {/if}
 
-  {call Structure.Defaults.Sidebar}
-{/template}*}
+  {call Structure.Defaults.Sidebar}*}
+{/template}
 
 {template .TestGroupB.SidebarAuthorBox}
   <section class="authorbox cbox">
