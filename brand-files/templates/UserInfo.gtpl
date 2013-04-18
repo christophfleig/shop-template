@@ -77,7 +77,7 @@
 	<span class="shopping-cart-info">
 		<span class="p5px-right" style="display: block;">
 			{if login().shoppingcart_account}
-				{login().shoppingcart_account.document_transactions.length} {if login().shoppingcart_account.document_transactions.length == 1}{NLS('web::www.grin.com::Page::Sidebar::ShoppingCart::Item')}{else}{NLS('web::www.grin.com::Page::Sidebar::ShoppingCart::Items')}{/if}&#160;|&#160;<b>{*login().shoppingcart_account.sum_gross[0].formatted*}</b>
+				{login().shoppingcart_account.document_transactions.length} {if login().shoppingcart_account.document_transactions.length == 1}{NLS('web::www.grin.com::Page::Sidebar::ShoppingCart::Item')}{else}{NLS('web::www.grin.com::Page::Sidebar::ShoppingCart::Items')}{/if}&#160;|&#160;<b>login().shoppingcart_account.sum_gross[0].formatted</b>
 			{else}
 				<span class="wk-link"><a href="{OPTION('base-href-shoppingcart')}">{NLS('Page::ShoppingCart::Title')}</a></span>
 				0 {NLS('web::www.grin.com::Page::Sidebar::ShoppingCart::Items')}&#160;|&#160;{zero_amount()}
@@ -119,7 +119,7 @@
 		{call .ShoppingCart}
 
 		<div class="user-info">
-			{if GrinEnv.i_am_grin} {* change later *}
+			{if GrinEnv.i_am_grin} 
 				{call .LanguageTrigger}
 			{elseif !GrinEnv.i_am_hausarbeiten && login().auth_method == 'NONE'}
 				<div style="position: absolute; top: 0px; left: 80px; display: block;">
@@ -140,7 +140,7 @@
 	</div>
 {/template}
 
-{* When grin administrators are logged in into wrong realm, they won't see anything *}
+
 {template .UserInfo.UserMenuOtherRealm}
 	{meta override=true}
         <div class="top-login top-dropdown-menu with-inner-shadow with-border-dark bg-white drop-down-arrow">
@@ -227,15 +227,14 @@
 		<li>{link_to_login('Übersicht',['admin','index'])}</li>
 		<li>{link_to_login('Suche',['admin','search','document'])}</li>
 
-		{* this distinction normally is not necessary. I added this to be more failure tolerant *}
 		{if GrinEnv.realm == 'grin'} 
 			<li>{link_to_login('Neue Manuskripte',['admin','integrity','document_new'])}</li>
 		{else}
 			<li>{link_to_login('Neue Manuskripte',['admin','integrity','realm_document_new'])}</li>
 		{/if}
 
-		{*<li>{link_to_login('Druck'        ,['admin','integrity','document_wait_final_check'])}</li>
-		<li>{link_to_login('Kategorie',['admin','categories'])}</li>*}
+		<li>{link_to_login('Druck'        ,['admin','integrity','document_wait_final_check'])}</li>
+		<li>{link_to_login('Kategorie',['admin','categories'])}</li>
 
 		<li>{link_to_login('Kunde anlegen',        ['admin','user'])}</li>
 
