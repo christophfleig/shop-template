@@ -1021,7 +1021,7 @@ dd.tags a.tag-value {margin-right: 10px;}
     .page-order-finished-middlesection .heading2  {border-bottom: none; font-family: inherit; font-size: 1.4em !important; text-transform: none;}
     .page-order-finished-middlesection .heading2 a:visited {color: #000;}
 
-    .page-checkout-main .ssl-info {
+    .ssl-info {
         position: absolute;
         top: 43px;
         width: 300px;
