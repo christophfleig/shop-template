@@ -1028,8 +1028,9 @@ dd.tags a.tag-value {margin-right: 10px;}
     .page-checkout-main .totals .shippingcosts-info {
         float: left;
         width: 800px;
-        margin-top: 9px!important;
+        margin-top: 8px!important;
         text-align: right;
+        font-size: 17px;
     }
 
     .shippingcosts-zero {
@@ -1046,8 +1047,8 @@ dd.tags a.tag-value {margin-right: 10px;}
         width: 800px;
         text-align: right;
         font-weight: normal!important;
-        font-size: 12px!important;
-        margin-top: 13px!important;
+        margin-top: 8px!important;
+        font-size: 17px;
     }
 
     .price-total-amount {
