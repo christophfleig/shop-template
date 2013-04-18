@@ -627,7 +627,7 @@ hr { width: 95%; border: none; border-top: 1px solid #D8D8D8; }
     .buybox .call-to-action .button-icon { padding: 8px 7px 11px 31px; margin: 0 15px 0 10px; background: url('$BRANDIMGPATH$/warenkorb_white.png') no-repeat; background-position: right; background-size: 37px 21px;}
     .buybox .call-to-action .button-text {text-shadow: none !important;}
     .buybox .call-to-action {border-radius: 5px;border: 1px solid #C05501;}
-    .buybox { text-align: left;}
+    .buybox-button { text-align: left!important;}
 
     /* Like Button */
 
@@ -781,7 +781,9 @@ input[type="radio"], input[type="checkbox"] {margin-right: 4px;}
 .heading .author .heading1 {font-size:22px; margin-bottom: 10px;font-family: Regular, "Regular-ie", Arial, sans-serif;}
 
 .page-document-middlesection .abstract {border-bottom: 0px solid #FFFFFF!important; padding-bottom: 15px; margin-bottom: 15px;}
-
+.page-document-overview > section:nth-child(even) {
+    background: #FFFFFF!important;
+}
 .page-document-middlesection .meta dt {width: 150px;}
 .page-document-middlesection .meta dd {margin-left: 160px;}
 
