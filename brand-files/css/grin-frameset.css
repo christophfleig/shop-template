@@ -1025,6 +1025,39 @@ dd.tags a.tag-value {margin-right: 10px;}
 
     .page-checkout-main .ssl-info {position: absolute;right: 20px; margin-top: 30px;}
 
+    .shippingcosts-info {
+        float: left;
+        width: 800px;
+        margin-top: 8px;
+        text-align: right;
+    }
+
+    .shippingcosts-zero {
+        float: right;
+        margin-top: 8px;
+        width: 110px;
+        font-weight: bold;
+        text-align: right;
+        font-size: 17px;
+    }
+
+    .price-total-info {
+        float: left;
+        width: 800px;
+        text-align: right;
+        margin-top: 8px;
+    }
+
+    .price-total-amount {
+        font-weight: bold;
+        font-size: 17px;
+        margin-top: 8px;
+        float: right;
+        width: 110px;
+        text-align: right;
+    }
+
+
     /* Addresses */
     /* Payment */
     /* Verification */
