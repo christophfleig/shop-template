@@ -218,7 +218,7 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 #language-select-span { left: -70px !important; top: -8px; z-index: 200; border: 1px solid #DDD; border-left: 1px solid #EDEDED; background: white url('/images/icons/down-arrow.png') 95px 19px no-repeat; text-align: center; width: 115px; height: 30px; padding: 15px 0 0 0; color: #737373; }
 .top-info .top-login { left: 46px; width: 120px; height: 15px; z-index: 200; top: -7px; padding: 15px 0px 15px 0px; border: 1px solid #DDD; border-left: 1px solid #EDEDED; border-top-right-radius: 5px; border-bottom-right-radius: 5px; background: white; text-align: center; }
 .top-info .top-login > a {padding-right: 0;}
-.admin-menu { left: -180px; top: 0px; }
+.admin-menu { left: -180px; top: 0px; display: none;}
 .top-info .top-shopping-cart .shopping-cart-info { padding-top: 20px; position: relative; top: -5px; }
 /*.top-info .top-dropdown-menu { background: white url('/images/icons/down-arrow.png') 100px 19px no-repeat; display: inline-block; }*/
 .top-info .top-dropdown-menu ul { padding: 20px 0 10px 0; background: white; border: 1px solid #DDD; border-top: none; width: 120px; position: relative; left: -1px; text-align: left; }
