@@ -24,13 +24,13 @@
   {/if}
 {/template}
 
-<!--{template .Sidebar}
+{*{template .Sidebar}
   {if GrinEnv.test_group == 'B'}
     {call .TestGroupB.SidebarAuthorBox}
   {/if}
 
   {call Structure.Defaults.Sidebar}
-{/template}-->
+{/template}*}
 
 {template .TestGroupB.SidebarAuthorBox}
   <section class="authorbox cbox">
