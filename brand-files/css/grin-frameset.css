@@ -1035,6 +1035,12 @@ dd.tags a.tag-value {margin-right: 10px;}
         right: -20px;
     }
 
+    .page-verification-main .paymentmethod {
+        float: left;
+        width: 278px;
+        margin: 40px -1px;
+    }
+
     .page-checkout-main .totals .shippingcosts-info {
         float: left;
         width: 800px;
