@@ -1,15 +1,7 @@
 {namespace Page.Checkout}
 
-{template .Payment.Options}
-	{meta override=true}
-
-	{* Bank, only in EUR-zone *}
-	{if GrinEnv.currency == 'EUR'}
-		{call .Payment.BankaccountBox}
-	{/if}
-	{call .Payment.CreditcardBox}
-	{call .Payment.PaypalBox}
-	{call .Payment.ClickandBuyBox}
+{template .Layout}
+  {call Structure.Layout.Fullwidth}
 {/template}
 
 {template .Shoppingcart.Heading}
