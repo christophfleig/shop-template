@@ -625,7 +625,7 @@ hr { width: 95%; border: none; border-top: 1px solid #D8D8D8; }
 
     /* Buybox-Button */
     .call-to-action { position:relative; margin-top: 10px; height:40px; background-color: #F60; border-radius: 9px 9px 9px 9px; /*box-shadow: 0px 0px 6px #bbbbbb; */ -moz-box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15); -webkit-box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15); border:0px; 
-    background-image: linear-gradient(bottom, #41A929 0%, #41A929 100%); background-image: -o-linear-gradient(bottom, #C05501 0%, #EA7F2A 100%); background-image: -moz-linear-gradient(bottom, #C05501 0%, #EA7F2A 100%); background-image: -webkit-linear-gradient(bottom, #C05501 0%, #EA7F2A 100%); background-image: -ms-linear-gradient(bottom, #C05501 0%, #EA7F2A 100%); background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #C05501),color-stop(1, #EA7F2A));}
+    background-image: linear-gradient(bottom, #41A929 0%, #41A929 100%); background-image: -o-linear-gradient(bottom, #41A929 0%, #41A929 100%); background-image: -moz-linear-gradient(bottom, #41A929 0%, #41A929 100%); background-image: -webkit-linear-gradient(bottom, #41A929 0%, #41A929 100%); background-image: -ms-linear-gradient(bottom, #41A929 0%, #41A929 100%); background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #41A929),color-stop(1, #41A929));}
     .buybox .call-to-action .button-icon { padding: 8px 7px 11px 31px; margin: 0 15px 0 10px; background: url('$BRANDIMGPATH$/warenkorb_white.png') no-repeat; background-position: right; background-size: 37px 21px;}
     .buybox .call-to-action .button-text {text-shadow: none !important;}
     .buybox .call-to-action {border-radius: 5px;border: 1px solid #C05501;}
@@ -1012,7 +1012,7 @@ dd.tags a.tag-value {margin-right: 10px;}
     .page-checkout-proceed .call-to-action .button-text {text-shadow: none;padding-top: 0; margin-left: 0px!important;}
     .page-shoppingcart-proceed .call-to-action .button-text {text-shadow: none; padding-top: 12px; padding-left: 19px; padding-right: 19px;}
     .page-shoppingcart-proceed .call-to-action .button-icon {background-position: 100% 54%;}
-
+    .page-checkout-proceed { margin-bottom : 0px !important;}
     .page-checkout .checkout-step.selected {background: #289D1F; color: white;}
 
     .sidebar-certified-shop > .heading1 { margin-left: -20px; }
@@ -1058,6 +1058,10 @@ dd.tags a.tag-value {margin-right: 10px;}
         float: right;
         width: 110px;
         text-align: right;
+    }
+
+    .disclaimers {
+        margin-top: 50px;
     }
 
     .disclaimers p b {
