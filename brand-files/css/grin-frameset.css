@@ -625,7 +625,7 @@ hr { width: 95%; border: none; border-top: 1px solid #D8D8D8; }
 
     /* Buybox-Button */
     .call-to-action { position:relative; margin-top: 10px; height:40px; background-color: #F60; border-radius: 9px 9px 9px 9px; /*box-shadow: 0px 0px 6px #bbbbbb; */ -moz-box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15); -webkit-box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15); border:0px; 
-    background-image: linear-gradient(bottom, #C05501 0%, #EA7F2A 100%); background-image: -o-linear-gradient(bottom, #C05501 0%, #EA7F2A 100%); background-image: -moz-linear-gradient(bottom, #C05501 0%, #EA7F2A 100%); background-image: -webkit-linear-gradient(bottom, #C05501 0%, #EA7F2A 100%); background-image: -ms-linear-gradient(bottom, #C05501 0%, #EA7F2A 100%); background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #C05501),color-stop(1, #EA7F2A));}
+    background-image: linear-gradient(bottom, #41A929 0%, #41A929 100%); background-image: -o-linear-gradient(bottom, #C05501 0%, #EA7F2A 100%); background-image: -moz-linear-gradient(bottom, #C05501 0%, #EA7F2A 100%); background-image: -webkit-linear-gradient(bottom, #C05501 0%, #EA7F2A 100%); background-image: -ms-linear-gradient(bottom, #C05501 0%, #EA7F2A 100%); background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #C05501),color-stop(1, #EA7F2A));}
     .buybox .call-to-action .button-icon { padding: 8px 7px 11px 31px; margin: 0 15px 0 10px; background: url('$BRANDIMGPATH$/warenkorb_white.png') no-repeat; background-position: right; background-size: 37px 21px;}
     .buybox .call-to-action .button-text {text-shadow: none !important;}
     .buybox .call-to-action {border-radius: 5px;border: 1px solid #C05501;}
@@ -1007,10 +1007,10 @@ dd.tags a.tag-value {margin-right: 10px;}
     .page-shoppingcart-main .shoppingcart-items .shoppingcart-item .meta .heading1 a:link,
     .page-shoppingcart-main .shoppingcart-items .shoppingcart-item .meta .heading1 a:visited {width: 90%;color: #000;}
     .page-shoppingcart-main .shoppingcart-items .shoppingcart-item .meta .heading1 a:hover {color: #289d1f;}
-    .page-checkout-proceed .call-to-action {border-radius: 5px !important ;border: 1px solid #C05501;text-shadow: none;box-shadow: none; padding: 0;}
+    .page-checkout-proceed .call-to-action {border-radius: 5px !important;text-shadow: none;box-shadow: none; padding: 0;}
     .page-addresses-proceed .call-to-action {margin-right: 15px;}
-    .page-checkout-proceed .call-to-action .button-text {text-shadow: none;padding-top: 0;}
-    .page-shoppingcart-proceed .call-to-action .button-text {text-shadow: none;padding-top: 12px;}
+    .page-checkout-proceed .call-to-action .button-text {text-shadow: none;padding-top: 0; margin-left: 0px!important;}
+    .page-shoppingcart-proceed .call-to-action .button-text {text-shadow: none; padding-top: 12px; padding-left: 19px; padding-right: 19px;}
     .page-shoppingcart-proceed .call-to-action .button-icon {background-position: 100% 54%;}
 
     .page-checkout .checkout-step.selected {background: #289D1F; color: white;}
@@ -1060,7 +1060,10 @@ dd.tags a.tag-value {margin-right: 10px;}
         text-align: right;
     }
 
-
+    .disclaimers p b {
+        color: #41A929;
+        font-size: 14px;
+    }
     /* Addresses */
     /* Payment */
     /* Verification */
