@@ -213,9 +213,6 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
     width: 300px;
 }
 
-.user-info {
-    display: none !important;
-}
 .top-info .top-shopping-cart { top: -10px; margin-top: 10px; width: 300px; left: 70px; border: none; padding: 0px; /*border-right: 1px solid #EDEDED;*/ height: 45px; background: url('$BRANDIMGPATH$/wk_grin_com.jpg') 0px 13px no-repeat; }
 .top-info .user-info { position: absolute; left: 420px; top: 7px; }
 #language-select-span { left: -70px !important; top: -8px; z-index: 200; border: 1px solid #DDD; border-left: 1px solid #EDEDED; background: white url('/images/icons/down-arrow.png') 95px 19px no-repeat; text-align: center; width: 115px; height: 30px; padding: 15px 0 0 0; color: #737373; }
@@ -1015,7 +1012,7 @@ dd.tags a.tag-value {margin-right: 10px;}
     .page-shoppingcart-proceed .call-to-action .button-icon {background-position: 100% 54%;}
     .page-checkout-proceed { margin-bottom : 0px !important;}
     .page-checkout .checkout-step.selected {background: #289D1F; color: white;}
-
+    .call-to-action .button-icon { display: none;}
     .sidebar-certified-shop > .heading1 { margin-left: -20px; }
     .sidebar-certified-shop ul li { list-style: disc inside; }
     .sidebar-certified-shop .picturebox { float: left; margin-right: 15px; }
