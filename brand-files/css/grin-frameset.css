@@ -1007,7 +1007,7 @@ dd.tags a.tag-value {margin-right: 10px;}
     .page-shoppingcart-main .shoppingcart-items .shoppingcart-item .meta .heading1 a:hover {color: #289d1f;}
     .page-checkout-proceed .call-to-action {border-radius: 5px !important;text-shadow: none;box-shadow: none; padding: 0;}
     .page-addresses-proceed .call-to-action {margin-right: 15px;}
-    .page-checkout-proceed .call-to-action .button-text {text-shadow: none;padding-top: 0; margin-left: 0px!important;}
+    .page-checkout-proceed .call-to-action .button-text {text-shadow: none; padding: 12px 10px; font-size: 13px!important; margin-left: 0px!important;}
     .page-shoppingcart-proceed .call-to-action .button-text {text-shadow: none; padding: 12px 10px; font-size: 13px!important;}
     .page-shoppingcart-proceed .call-to-action .button-icon {background-position: 100% 54%;}
     .page-checkout-proceed { margin-bottom : 0px !important;}
@@ -1067,6 +1067,7 @@ dd.tags a.tag-value {margin-right: 10px;}
         color: #41A929;
         font-size: 14px;
     }
+
     /* Addresses */
     /* Payment */
     /* Verification */
