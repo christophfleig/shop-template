@@ -43,7 +43,7 @@
 
 {template .Payment.Layout}
 		{meta override=true}
-        {Call Structure.Layout.Fullwidth}
-{/template}
+        {call Structure.Layout.Fullwidth}
+
 
 
