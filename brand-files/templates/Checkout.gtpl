@@ -1,6 +1,7 @@
 {namespace Page.Checkout}
 
 {template .Layout}
+{meta override=true}
   {call Structure.Layout.Fullwidth}
 {/template}
 
