@@ -44,6 +44,6 @@
 {template .Payment.Layout}
 		{meta override=true}
         {call Structure.Layout.Fullwidth}
-
+{/template}
 
 
