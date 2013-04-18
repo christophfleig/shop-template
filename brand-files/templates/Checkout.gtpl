@@ -38,14 +38,14 @@
 			<section class="totals">
 				{call .Shoppingcart.Totals}
 			</section>
+			<section class="disclaimers">
+				{call .Shoppingcart.Disclaimers}
+			</section>
 			<section class="page-shoppingcart-proceed page-checkout-proceed">
 				<a class="call-to-action" href="{OPTION('base-href-checkout-addresses')}">
 					<span class="button-text">{NLS('Page::Commons::StartCheckout')}</span>
 					<!--<span class="button-icon"></span>-->
 				</a>
-			</section>
-			<section class="disclaimers">
-				{call .Shoppingcart.Disclaimers}
 			</section>
 		</section>
 
