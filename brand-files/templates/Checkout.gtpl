@@ -46,4 +46,8 @@
         {call Structure.Layout.Fullwidth}
 {/template}
 
+{template .Verification.Layout}
+		{meta override=true}
+        {call Structure.Layout.Fullwidth}
+{/template}
 
