@@ -1,5 +1,11 @@
 {namespace Page.Document}
 
+
+{template .Layout}
+  {call Structure.Layout.Fullwidth}
+{/template}
+
+
 {template .Heading}
   {meta override=true}
   {if _.non_academic}
@@ -19,73 +25,12 @@
     {link_to(NLS('Page::Banner::BecomeAuthorNow'),OPTION('base-href-upload',{lang:GrinEnv.lang}), 'linkbutton poi', {'grin:poi': 'CLICK_UPLOADBANNER'})}
   </div>
 
-  {if GrinEnv.test_group == 'A'}
-    {call .TopSection.Main}
-  {/if}
+ {call .TopSection.Main}
 {/template}
 
-{template .Sidebar}
-  {meta override=true}
-  {*{if GrinEnv.test_group == 'B'}
-    {call .TestGroupB.SidebarAuthorBox}
-  {/if}
-
-  {call Structure.Defaults.Sidebar}*}
-{/template}
-
-{template .TestGroupB.SidebarAuthorBox}
-  <section class="authorbox cbox">
-    <div class="sidebar-heading">
-      {NLS('Page::Commons::Author')}
-    </div>
-
-    {if _ctx.maindata.authors.length}
-      {param author=_ctx.maindata.authors[0]}
-      {param user=_p.author.user || {}}
-      <div class="picturebox">
-        {picture(_p.user, 'related', true, null, false, true)}
-      </div>
-      <div class="meta">
-        <div class="heading1">
-          {link_to_object(_p.author, 'author')}
-        </div>
-
-        <dl class="metalist">
-          {if _p.user.count_public_documents > 0}
-            <dt class="no_of_texts">{NLS('Page::Tabs::Texts')}</dt>
-            <dd class="no_of_texts">{_p.user.count_public_documents}</dd>
-          {/if}
-          {if _p.user.country_id}
-            <dt class="country">{NLS('Page::Commons::Country')}</dt>
-            <dd class="country">{link_to_country(_p.user.country_id, null, {'rel':'nofollow'})}</dd>
-          {/if}
-
-          {if _p.user.created > 0}
-            <dt class="member_since">{NLS('Page::Commons::GRINMemberSince')}</dt>
-            <dd class="member_since">{format_date(_p.user.created)}</dd>
-          {/if}
-        </dl>
-      </div>
-    {else}
-      <div class="picturebox">
-        {picture(null,'related')}
-      </div>
-      <div class="meta">
-        <div class="heading1">
-          {NLS('Page::Commons::Author::Anonymous')}
-        </div>
-      </div>
-    {/if}
-  </section>
-{/template}
 
 {template .Main}
   {meta override=true}
-
-  {if GrinEnv.test_group == 'B'}
-    {call .TopSection.MainB}
-  {/if}
-
   {call .MiddleSection.Main}
 
   {call .BottomSection.Main}
@@ -98,21 +43,6 @@
     {/Call}
   {/if}
 {/template}
-
-{template .TopSection.MainB}
-  <section class="page-document-top cbox">
-    <section class="picturebox">
-      {call .TopSection.Picturebox}
-    </section>
-    <section class="meta">
-      {call .TopSection.Meta.Main}
-      {call Widget.Buybox.Main root=_}
-      {call .Meta.Bottom}
-    </section>
-  </section>    
-{/template}
-
-
 
 {template .TopSection.Social}
   {meta override=true}
@@ -134,19 +64,10 @@
   </section>
 {/template}
 
-{template .TestGroupB.SocialBox}
-  <section class="social">
-    {call Widget.ShareBox.Main}
-  </section>
-{/template}
-
 {template .MiddleSection.Overview}
   {meta override=true}
   {call .MiddleSection.Banner}
 
-  {if GrinEnv.test_group == 'B'}
-    {call .TestGroupB.SocialBox}
-  {/if}
   {if _.text.render_mode == 'none'}
     {call .MiddleSection.Abstract}
   {else}
