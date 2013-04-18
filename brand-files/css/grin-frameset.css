@@ -227,7 +227,7 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 #language-selector { padding: 10px 0 10px 0; width: 115px; left: -1px; top: 13px; text-align: center; }
 .top-info .admin-menu .top-dropdown-menu {border-color: #DDD; }
 .sum { position: absolute; margin-left: 23px; margin-top: 14px;}
-
+.page-verification-main .sum { margin-left: -52px; margin-top: -5px; width: 100px; }
 .wk-link { display: inline-block; margin-right: 35px; }
     /* Navigation */
     /* -- New Nav-Bar for GRIN.com */
