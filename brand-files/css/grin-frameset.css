@@ -1038,9 +1038,11 @@ dd.tags a.tag-value {margin-right: 10px;}
     .page-verification-main .paymentmethod {
         float: left;
         width: 278px;
+        margin: 40px -1px;
+        float: left;
+        width: 278px;
         min-height: 0px;
         padding-bottom: 0px;
-        margin-left: -1px;
         border-left: none;
     }
 
