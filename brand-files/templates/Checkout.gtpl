@@ -1,10 +1,5 @@
 {namespace Page.Checkout}
 
-{template .Payment.Layout}
-{meta override=true}
-  {call Structure.Layout.Fullwidth}
-{/template}
-
 {template .Shoppingcart.Heading}
 	{meta override=true}
 {/template}
@@ -44,6 +39,10 @@
 
 
 	{/if}
+{/template}
+
+{template .Payment.Layout}
+        {Call Structure.Layout.Fullwidth}
 {/template}
 
 
