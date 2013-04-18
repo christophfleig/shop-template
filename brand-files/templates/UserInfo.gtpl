@@ -1,4 +1,4 @@
-{namespace Widget.UserInfo}
+{*{namespace Widget.UserInfo}
 
 {template .Container}
 	{meta override=true}
@@ -252,4 +252,4 @@
 		<li><a>{link_to_login('Reporting'           ,['admin','reporting'])}</a></li>
 		<li><a>{link_to_login('Nutzerverwaltung',['admin','search','user'])}</a></li>
 	</ul>
-{/template}
+{/template}*}
