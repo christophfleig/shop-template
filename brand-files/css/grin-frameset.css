@@ -677,7 +677,7 @@ input[type="radio"], input[type="checkbox"] {margin-right: 4px;}
 .page-user-top > .social .socialShareItem.google-plus {margin-top: 2px;}
 .page-document .document-upload-banner {
     box-shadow:inset 3px 3px 8px rgba(0, 0, 0, 0.18), inset -3px -3px 8px rgba(0, 0, 0, 0.18);
-    position: relative; margin-left: 0px; margin-top: -5px; display:block; width: 985px; height: 60px; background-image: url('/images/banners/blue_banner.jpg') }
+    position: relative; margin-left: 0px; margin-top: -5px; display:block; width: 985px; height: 60px; background-image: url('/images/banners/blue_banner.jpg'); display: none; }
 .page-document .document-upload-banner .info {text-shadow: -2px 0 2px rgba(65, 94, 105, 0.58); padding: 15px 20px; !important;font-family: Regular, "Regular-ie", Arial, sans-serif;font-size: 22px;font-weight: normal;color:white;}
 .page-document .document-upload-banner .linkbutton {
     text-shadow: -2px 0 2px rgba(65, 94, 105, 0.58);
@@ -711,7 +711,8 @@ input[type="radio"], input[type="checkbox"] {margin-right: 4px;}
 .testgroupB .page-document-top .meta {width: 387px; margin-right: 0px;}
 .testgroupB .page-document-top .buybox {max-width: 387px;}
 
-.testgroupB .social {overflow: hidden;}
+.testgroupB .social {overflow: hidden; display: none;}
+.page-document-top .author { display: none;}
 .testgroupB .socialShareItem {float: left; margin-bottom:0px; margin-right:10px;}
 
 .testgroupB .sidebar .authorbox {overflow: hidden;}
