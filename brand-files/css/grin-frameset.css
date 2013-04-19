@@ -852,9 +852,10 @@ input[type="radio"], input[type="checkbox"] {margin-right: 4px;}
 .page-document-overview > section:nth-child(even) {
     background: #FFFFFF!important;
 }
-.page-document-overview .meta { display: none;}
-.page-document-middlesection .sidebar-related_objects_by_purchase { display: none;}
-.page-document-middlesection .page-document-comment { display: none;}
+.page-document-overview > section {
+    margin: 0 0px 0 -20px;
+}
+
 .page-document-middlesection .meta dt {width: 150px;}
 .page-document-middlesection .meta dd {margin-left: 160px;}
 
