@@ -655,9 +655,10 @@ hr { width: 95%; border: none; border-top: 1px solid #D8D8D8; }
     .buybox-button { text-align: left!important;}
     button.shopping-cart-button {
         margin-top: 30px;
-        background-image: url('http://christopher.grin.com/images/brand/7/wk_grin_com.jpg') 0px 13px no-repeat;
-        background-color: #41A929;
-        padding: 5px;
+        background: #41A929;
+        padding: 5px 20px;
+        text-shadow: 0px!important;
+        color: white;
     }
     /* Like Button */
 
