@@ -173,16 +173,20 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
 
 /* Header */
 .header .identity .brand-name {text-shadow: 2px 2px #aaaaaa; font-size: 300%; text-transform: capitalize; text-decoration: none; font-family: Avalon,Wide Latin;}
-.header { 
+.header {  
+    border-bottom: 1px solid grey; 
+    z-index: 1000;
+    position: fixed;
+    height: 77px;
+}
+.head-box {
+    padding-bottom: 10px; 
+    left: 50%;
+    margin-left: -493px;
     background: white; 
     width: 986px; 
     top: 0; 
-    z-index: 1000; 
-    border-bottom: 1px solid grey; 
-    padding-bottom: 10px; 
-    position: fixed;
-    left: 50%;
-    margin-left: -493px;}
+}
 .986px .identity { padding: 10px 0 12px 0px; color: #737373;}
 .identity {
      display: inline-block; 
@@ -215,6 +219,7 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 
 .top-info .top-shopping-cart { top: -10px; margin-top: 10px; width: 300px; left: 70px; border: none; padding: 0px; /*border-right: 1px solid #EDEDED;*/ height: 45px; background: url('$BRANDIMGPATH$/wk_grin_com.jpg') 0px 13px no-repeat; }
 .top-info .user-info { position: absolute; left: 420px; top: 7px; }
+.user-info {display: none;}
 #language-select-span { left: -70px !important; top: -8px; z-index: 200; border: 1px solid #DDD; border-left: 1px solid #EDEDED; background: white url('/images/icons/down-arrow.png') 95px 19px no-repeat; text-align: center; width: 115px; height: 30px; padding: 15px 0 0 0; color: #737373; }
 .top-info .top-login { left: 46px; width: 120px; height: 15px; z-index: 200; top: -7px; padding: 15px 0px 15px 0px; border: 1px solid #DDD; border-left: 1px solid #EDEDED; border-top-right-radius: 5px; border-bottom-right-radius: 5px; background: white; text-align: center; }
 .top-info .top-login > a {padding-right: 0;}
