@@ -82,3 +82,8 @@
 {template .BottomSection.Main}
   {meta override=true}
 {/template}
+
+{template .Sidebar}
+  {meta override=true}  
+  {* No static sidebar *}
+{/template}
