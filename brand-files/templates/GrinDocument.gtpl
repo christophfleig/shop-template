@@ -8,6 +8,12 @@
 
 {template .Heading}
   {meta override=true}
+  
+{/template}
+
+
+{template .Main}
+  {meta override=true}
   {if _.non_academic}
     {Call Widget.BreadCrumbs.Main root=_.non_academic.realm_genre}
       {param link_last_item=true}
@@ -26,11 +32,6 @@
   </div>
 
  {call .TopSection.Main}
-{/template}
-
-
-{template .Main}
-  {meta override=true}
   {call .MiddleSection.Main}
 
   {call .BottomSection.Main}
