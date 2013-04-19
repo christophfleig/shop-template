@@ -96,7 +96,7 @@
       </ul>
     </div>
     <div>
-      <p class="sp-highlight">{NLS('Page::Document::StandardShop::AviableOn')}</p>
+      <p class="sp-highlight">{NLS('Page::Document::StandardShop::AvailableOn')}</p>
     </div>
   </div>
 {/template}
