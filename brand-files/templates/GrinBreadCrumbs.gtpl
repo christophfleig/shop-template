@@ -11,7 +11,7 @@
 
 {template Widget.BreadCrumbs.Main}
 	{meta override=true}
-	{*
+	
 	<div class="breadcrumbs">
 		{NLS('Page::Commons::YouAreHere')}:&#160;&#160;&#160;
 		{if typeof(_) === 'string'}
@@ -43,5 +43,5 @@
 		{else}
 			{NLS('Page::Commons::Homepage')}
 		{/if}
-	</div>*}
+	</div>
 {/template}
