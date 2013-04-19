@@ -351,6 +351,10 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
         display: inline-block;
     }
 
+    .pagination {
+        font-size: 15px;
+    }
+
     .objectlist .objectlist-item dl.metalist {
         margin-bottom: 66px;
     }
