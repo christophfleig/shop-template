@@ -95,5 +95,8 @@
         <li>{NLS('Page::Document::StandardShop::PayPal')}</li>
       </ul>
     </div>
+    <div>
+      <p class="sp-highlight">{NLS('Page::Document::StandardShop::AviableOn')}</p>
+    </div>
   </div>
 {/template}
