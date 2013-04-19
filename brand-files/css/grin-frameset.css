@@ -615,7 +615,7 @@ section.upload-banner-boxes { animation: target-show 1.0s 1; -webkit-animation: 
 .page-topics-item h3, .page-subjects-item h3 { font-size: 180%; font-family: Regular, "Regular-ie", Arial, sans-serif; }
 .page-topics-link, .page-subjects-link, .page-topics-item-link, .page-subjects-item-link { margin: 15px 0 0 0; }
 
-.right-sidebar .main { width: 80%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; border-right: 1px solid #D9D9D9; margin: 0; min-height: 600px; }
+.right-sidebar .main { width: 80%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; border-right: 1px solid #D9D9D9; margin: 0; min-height: 750px; }
 .right-sidebar .main:first-child { margin-top: 15px!important; }
 
 .right-sidebar.sidebar-fullheight .heading {border-right: 1px solid #D9D9D9;}
