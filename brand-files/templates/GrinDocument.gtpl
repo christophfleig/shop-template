@@ -49,7 +49,7 @@
   {meta override=true}
 {/template}
 
-{template .TopSection.Meta.Bottom}
+{template .Meta.Bottom}
   {meta override=true}
 {/template}
 
