@@ -355,6 +355,10 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
         margin-bottom: 66px;
     }
 
+    .objectlist .objectlist-item {
+        border-bottom: 1px dashed #E5E5E5!important;
+    }
+
     .misc {
         margin-bottom: 5px;
     }
