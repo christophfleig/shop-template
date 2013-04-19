@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
      font-size: 14px;
 }
 .search { /*width: 298px;*/ background: transparent; border-radius: 20px; /*float: left;*/ position: relative; /*top: -3px; margin-right: 25px;*/ display: inline-block; margin: 0px 55px; }
-.search-input { border-radius: 20px; width: 258px; background: url("$BRANDIMGPATH$/grin-lupe.png") no-repeat 270px 2px; border: 1px solid #C1C1C1; padding: 2px 20px 2px 20px; }
+.search-input { border-radius: 20px; width: 258px; background: url("$BRANDIMGPATH$/grin-lupe.png") no-repeat 270px 1px; border: 1px solid #C1C1C1; padding: 2px 20px 2px 20px; }
 .search form { background: white; }
 
 .header-items { float: left; margin: 0 0 0 20px; font-size: 13px; }
