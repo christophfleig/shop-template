@@ -85,5 +85,15 @@
 
 {template .Sidebar}
   {meta override=true}  
-  {* No static sidebar *}
+  <div class="safe-payment">
+    <span class="sp-hightlight">
+      {NLS('Page::Document::StandardShop::SafePayment')}
+    </span>
+    <span>
+      {NLS('Page::Document::StandardShop::PaymentContent')}
+      <ul>
+        <li>{NLS('Page::Document::StandardShop::PayPal')}</li>
+      </ul>
+    </span>
+  </div>
 {/template}

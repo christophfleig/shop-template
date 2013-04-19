@@ -397,6 +397,21 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
         font-weight: bold;
     }
 
+    .safe-payment {
+        width: 190px;
+        height: auto;
+    }
+
+    .safe-payment span {
+        width: 100%;
+        margin-bottom: 5px;
+        border-bottom: 1px dashed #E5E5E5;
+    }
+
+    .sp-highlights {
+        color: #41A929;
+    }
+
     /*.search-input {width: 160px; font-size: 110%; height: 20px; border: 1px solid; padding: 2px 20px 2px 2px; background: url('/images/icons/magnifier.png') no-repeat 165px 6px;}*/
 
     .page-search-middlesection > .meta > .heading1 {font-family: Regular, "Regular-ie", Arial, sans-serif;font-size: 20px;}
