@@ -178,6 +178,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
     z-index: 1000;
     position: fixed;
     height: 77px;
+    background: white;
 }
 .head-box {
     padding-bottom: 10px; 
