@@ -70,7 +70,7 @@
 
 {template .MiddleSection.Overview}
   {meta override=true}
-  {NLS('Page::Document::StandardShop::Content')}
+  <span class="highlights">{NLS('Page::Document::StandardShop::Content')}</span>
   {if _.text.render_mode == 'none'}
     {call .MiddleSection.Abstract}
   {else}
