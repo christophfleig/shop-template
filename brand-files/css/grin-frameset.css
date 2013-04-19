@@ -363,6 +363,22 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
         margin-bottom: 5px;
     }
 
+    .page-checkout-main .totals {
+        border-bottom: 1px dashed #E5E5E5;
+    }
+
+    .page-shoppingcart-main .shoppingcart-item {
+        border-bottom: 1px dashed #E5E5E5;
+    }
+
+    .page-search-middlesection > .meta {
+        border-bottom: 1px dashed #E5E5E5;
+    }
+
+    .checkout-steps {
+        border-bottom: 2px dashed #E5E5E5;
+    }
+
     /*.search-input {width: 160px; font-size: 110%; height: 20px; border: 1px solid; padding: 2px 20px 2px 2px; background: url('/images/icons/magnifier.png') no-repeat 165px 6px;}*/
 
     .page-search-middlesection > .meta > .heading1 {font-family: Regular, "Regular-ie", Arial, sans-serif;font-size: 20px;}
