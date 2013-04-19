@@ -111,7 +111,7 @@ body {
 }
 
 .header, .nav, .visual, .page, .footer, .popup-container {margin: 0px auto;}
-.sidebar { width: 21%; }
+.sidebar { width: 20%; }
 .article { width: 714px!important; padding-top: 0!important; }
 .visual.home.tabbar { margin-bottom: 15px; margin-top: -5px; }
 .cbox.tabbar.first { margin-top: 30px!important; }
@@ -402,13 +402,13 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
         height: auto;
     }
 
-    .safe-payment span {
+    .safe-payment p {
         width: 100%;
         margin-bottom: 5px;
         border-bottom: 1px dashed #E5E5E5;
     }
 
-    .sp-highlights {
+    .sp-highlight {
         color: #41A929;
     }
 
