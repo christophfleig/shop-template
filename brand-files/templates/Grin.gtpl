@@ -30,6 +30,7 @@
 	{/if}
 
 	<div class="header">
+	<div class="head-box">
 		<div class="identity">
 			<!--<a href="{OPTION('base-href-main')}">
 				{brand_img('grin-logo-de.png',null,null)}
@@ -62,6 +63,7 @@
 				{/Call}
 			</div>
 		{call Widget.UserInfo.Container}
+	</div>
 	</div>
 	{* Menu *}
 	<!--Not needed in this Template-->
