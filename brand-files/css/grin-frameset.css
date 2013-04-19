@@ -363,10 +363,6 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
         margin-bottom: 5px;
     }
 
-    .page-search-middlesection > .meta .sort-by-pagination {
-        border-bottom: 2px dashed #E5E5E5;
-    }
-
     .page-checkout-main .totals {
         border-bottom: 1px dashed #E5E5E5;
     }
