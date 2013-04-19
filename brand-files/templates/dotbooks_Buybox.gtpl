@@ -62,10 +62,10 @@
             {Call .AffiliateButton}
             {/Call}
         {/if}
-        {if _.products && _.products.epub}
+        {*{if _.products && _.products.epub}
             {Call .AffiliateButton}
             {/Call}
-        {/if}
+        {/if}*}
 
         {* AVAILABLE SOON *}
         {if _.products && keys(_.products).length == 0}
