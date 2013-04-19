@@ -91,7 +91,7 @@
         <input type="hidden" name="product" value="{_p.product}"/>
 
         <button type="submit" class="shopping-cart-button">
-{*          <span style="font-size:14px;">{NLS('Page::Commons::AddToCart')}</span>*}
+            <span style="font-size:14px;">{NLS('Page::Commons::AddToCart')}</span>
 {*          <span>{_p.dotbooks_name}<br/>€ {format_price(_.products[_p.product].value)}</span>  *}
             <span>{_p.dotbooks_name}<br/>{get_price_formatted(_,_p.product)}</span>  
         </button>
