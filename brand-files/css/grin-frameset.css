@@ -380,7 +380,7 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
     }
 
     .page-payment-main .payment-method {
-        border-bottom: 1px dashed #E5E5E5;
+        border-top: 1px dashed #E5E5E5;
     }
 
     .checkout-steps {
