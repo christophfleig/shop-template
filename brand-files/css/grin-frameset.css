@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
     width: 986px; 
     top: 0; 
     z-index: 1000; 
-    border-bottom: 2px solid grey; 
+    border-bottom: 1px solid grey; 
     padding-bottom: 10px; 
     position: fixed;
     left: 50%;
