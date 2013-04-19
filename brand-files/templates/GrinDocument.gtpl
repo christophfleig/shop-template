@@ -49,6 +49,10 @@
   {meta override=true}
 {/template}
 
+{template .TopSection.Meta.Bottom}
+  {meta override=true}
+{/template}
+
 {template .MiddleSection.Main}
   {meta override=true}
 
