@@ -336,6 +336,20 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 
     /* Search */
     .main-menu li.main-menu-search  {margin-left: 10px; margin-top: -1px;}
+    .pagination > .active { 
+        background-color: white!important; 
+        color: #41A929!important; 
+        }
+
+    .pagination > * {
+        padding: 0!important;
+        border: 0!important;
+        text-decoration: none;
+        min-width: 0!important;
+        text-align: center;
+        margin-right: 5px;
+        display: inline-block;
+    }
 
     /*.search-input {width: 160px; font-size: 110%; height: 20px; border: 1px solid; padding: 2px 20px 2px 2px; background: url('/images/icons/magnifier.png') no-repeat 165px 6px;}*/
 
