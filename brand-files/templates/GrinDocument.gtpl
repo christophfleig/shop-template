@@ -86,7 +86,7 @@
 {template .Sidebar}
   {meta override=true}  
   <div class="safe-payment">
-    <p class="sp-hightlight">
+    <p class="sp-highlight">
       {NLS('Page::Document::StandardShop::SafePayment')}
     </p>
     <p>
