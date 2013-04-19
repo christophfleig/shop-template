@@ -58,11 +58,11 @@
         {/if}
 
         {* Affiliate *}
-        {if _.products && _.products.ebook}
+        {*{if _.products && _.products.ebook}
             {Call .AffiliateButton}
             {/Call}
         {/if}
-        {*{if _.products && _.products.epub}
+        {if _.products && _.products.epub}
             {Call .AffiliateButton}
             {/Call}
         {/if}*}
