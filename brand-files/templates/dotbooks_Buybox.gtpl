@@ -99,9 +99,9 @@
     </form>    
 {/template}
 
-{template .AffiliateButton}
+{*{template .AffiliateButton}
 	<div style="width: 100px; margin-left: 5px; float: left; margin-top: 8px;">
     <div class="amazon-button" style="margin-left: 10px;"><a href="http://www.amazon.de/s/ref=nb_sb_noss?ie=UTF-8&url=search-alias%3daps&tag=httpwwwdotboo-21&field-keywords={_.title}+dotbooks" target="_blank" title="{_.title} im Amazon Kindle Shop kaufen. Verfügbar für die Amazon Kindle Plattformen: Kindle Reader, Kindle for PC, Kindle for iPad/iPhone/iPod, Kindle for Android, Kindle for Windows Phone.">{brand_img('amazon_badge.png',null,null)}</a></div>
     <div class="amazon-button"><a href="http://clkuk.tradedoubler.com/click?p=23761&a=2136745&url=http://itunes.apple.com/de/book/isbn{_.identifiers.isbns.ebook.ean}&partnerId=2003" target="_blank" title="{_.title} im iBooks Store kaufen. Verfügbar für die Apple iOS Geräte iPhone, iPad und iPod touch. Voraussetzung ist die Installation der kostenlosen iBooks App.">{brand_img('ibookstore_badge.png',null,null)}</a></div>
 	</div>
-{/template}
+{/template}*}
