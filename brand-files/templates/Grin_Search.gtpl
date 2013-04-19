@@ -1,7 +1,7 @@
 {namespace Page.Search}
 
-
-{template .buybutton}
+{template .Layout}
 	{meta override=true}
-	
+	{call Structure.Layout.Fullwidth}
+
 {/template}
