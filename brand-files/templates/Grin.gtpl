@@ -32,8 +32,8 @@
 	<div class="header">
 	<div class="head-box">
 		<div class="identity">
-			<!--<a href="{OPTION('base-href-main')}">
-				{brand_img('grin-logo-de.png',null,null)}
+			<a href="{OPTION('base-href-main')}">
+				<!--{brand_img('grin-logo-de.png',null,null)}
 				{*  NEW Logo - Needs to be implemented 
 				<img src="{OPTION('base-href-images')}{GrinEnv.brand}/{GrinEnv.brand}-logo{if GrinEnv.i_am_grin}-{GrinEnv.lang}{/if}.png"
 					 {if GrinEnv.i_am_hausarbeiten}
