@@ -86,14 +86,14 @@
 {template .Sidebar}
   {meta override=true}  
   <div class="safe-payment">
-    <p class="sp-highlight">
+    <div class="sp-highlight">
       {NLS('Page::Document::StandardShop::SafePayment')}
-    </p>
-    <p>
+    </div>
+    <div>
       {NLS('Page::Document::StandardShop::PaymentContent')}
       <ul>
         <li>{NLS('Page::Document::StandardShop::PayPal')}</li>
       </ul>
-    </p>
+    </div>
   </div>
 {/template}
