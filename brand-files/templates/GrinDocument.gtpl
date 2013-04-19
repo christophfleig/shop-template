@@ -2,7 +2,7 @@
 
 
 {template .Layout}
-  {call Structure.Layout.Fullwidth}
+  {call Structure.Layout.RightSidebar}
 {/template}
 
 
