@@ -658,11 +658,12 @@ hr { width: 95%; border: none; border-top: 1px solid #D8D8D8; }
         background: #41A929;
         padding: 5px 20px;
         text-shadow: none;
-        font-size: 20px;
+        font-size: 15px;
         color: white;
+        margin-left: -1px;
     }
 
-    .page-document-top .cbox .meta .buybox button.shopping-cart-button {
+    .page-document-top .cbox .meta .buybox-main button.shopping-cart-button {
         margin-top: 5px;
     }
     /* Like Button */
