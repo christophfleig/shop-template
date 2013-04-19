@@ -351,6 +351,14 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
         display: inline-block;
     }
 
+    .objectlist .objectlist-item dl.metalist {
+        margin-bottom: 66px;
+    }
+
+    .misc {
+        margin-bottom: 5px;
+    }
+
     /*.search-input {width: 160px; font-size: 110%; height: 20px; border: 1px solid; padding: 2px 20px 2px 2px; background: url('/images/icons/magnifier.png') no-repeat 165px 6px;}*/
 
     .page-search-middlesection > .meta > .heading1 {font-family: Regular, "Regular-ie", Arial, sans-serif;font-size: 20px;}
@@ -654,17 +662,12 @@ hr { width: 95%; border: none; border-top: 1px solid #D8D8D8; }
     .buybox .call-to-action {border-radius: 5px;border: 1px solid #C05501;}
     .buybox-button { text-align: left!important;}
     button.shopping-cart-button {
-        margin-top: 30px;
         background: #41A929;
         padding: 5px 20px;
         text-shadow: none;
         font-size: 15px;
         color: white;
         margin-left: -1px;
-    }
-
-    .page-document-top .cbox .meta .buybox-main button.shopping-cart-button {
-        margin-top: 5px;
     }
     /* Like Button */
 
