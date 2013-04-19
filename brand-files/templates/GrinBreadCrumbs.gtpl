@@ -16,7 +16,7 @@
 		{NLS('Page::Commons::YouAreHere')}:&#160;&#160;&#160;
 
 		{if GrinEnv.handler == 'document'}
-			{if _._class && _._class == 'subject'}
+			{*if _._class && _._class == 'subject'}
 				{link_to( NLS('Page::Commons::Homepage') , OPTION('base-href-main') )}&#160;&gt;&#160;
 				{foreach subject in _.parents}
 					{link_to(NLS(subject.catalog_name).replace(/.* - /,''),subject.grin_url)}&#160;&gt;&#160;
@@ -32,8 +32,8 @@
 					{link_to(_.name, _.grin_url)}
 				{else}
 					{_.name}
-				{/if*}
-			{/if}
+				{/if}
+			{/if*}
 		{elseif typeof(_) === 'string'}
 			{link_to( NLS('Page::Commons::Homepage') , OPTION('base-href-main') )}&#160;&gt;&#160;{_}
 		{elseif _._class && _._class == 'user'}
