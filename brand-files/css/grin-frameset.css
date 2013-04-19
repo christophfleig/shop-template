@@ -121,8 +121,6 @@ body {
 .right-sidebar .sidebar .cbox {margin-bottom: 30px;}
 
 /* anker */
-a:visited   {color: #555}
-a:hover {color: #289d1f;}
 a:-webkit-any-link {
     color: black;
 }
