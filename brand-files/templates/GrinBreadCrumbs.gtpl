@@ -32,8 +32,8 @@
 					{link_to(_.name, _.grin_url)}
 				{else}
 					{_.name}
-				{/if*}
-			{/if}
+				{/if}
+			{/if*}
 		{elseif typeof(_) === 'string'}
 			{link_to( NLS('Page::Commons::Homepage') , OPTION('base-href-main') )}&#160;&gt;&#160;{_}
 		{elseif _._class && _._class == 'user'}
