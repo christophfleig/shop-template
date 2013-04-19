@@ -39,7 +39,7 @@
 		{elseif _._class == 'user'}
 			{link_to( NLS('Page::Commons::Homepage') , OPTION('base-href-main') )}&#160;&gt;&#160;
 			{link_to(NLS('Page::Menu::Authors'),OPTION('base-href-authors'))}
-		{elseif _.query.value && _.query.value.searchstring}
+		{elseif _.query && _.query.value && _.query.value.searchstring}
 			{link_to( NLS('Page::Commons::Homepage') , OPTION('base-href-main') )}&#160;&gt;&#160;
 			{NLS('Page::Search::ResultsFor')}&#160;&#187;&#160;<b>{_.value.searchstring}</b>&#160;&#171;
 		{else}
