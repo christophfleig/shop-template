@@ -181,12 +181,14 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
     background: white;
     top: 0;
     width: 100%;
+    padding-top: 0px;
 }
 .head-box {
     padding-bottom: 10px;
     background: white;
     width: 986px;
     margin: auto;
+    padding: 20px 0px;
 }
 .986px .identity { padding: 10px 0 12px 0px; color: #737373;}
 .identity {
