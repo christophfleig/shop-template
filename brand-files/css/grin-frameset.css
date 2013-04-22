@@ -243,8 +243,8 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 .top-info .top-shopping-cart { top: -10px;
 float: right;
 margin-top: 10px;
-width: 150px;
-left: 175px;
+width: 163px;
+left: 160px;
 border: none;
 padding: 0px;
 height: 45px;
@@ -474,6 +474,9 @@ background: url('http://christopher.grin.com/images/brand/7/wk_grin_com.jpg') 0p
         margin-right: -10px!important;
     }
 
+    button, a.button {
+        font-family: 'PT_Sans';
+    }
     /*.search-input {width: 160px; font-size: 110%; height: 20px; border: 1px solid; padding: 2px 20px 2px 2px; background: url('/images/icons/magnifier.png') no-repeat 165px 6px;}*/
 
     .page-search-middlesection > .meta > .heading1 {font-family: 'Bree Serif'; font-size: 20px;}
@@ -763,8 +766,8 @@ hr { width: 95%; border: none; border-top: 1px solid #D8D8D8; }
     .page-document .grid-carousel .minilist-item { height: auto; }
     /* List of KeyValue Pairs */
     dl {width: 100%;}
-    dt {float:left; clear:left; width: 100px; text-align: left; font-weight: bold;}
-    dd {margin: 0 0 0 110px; padding: 0 0 0.5em 0;}
+    dt {float:left; clear:left; width: 50px; text-align: left; font-weight: bold;}
+    dd {margin: 0 0 0 50px; padding: 0 0 0.5em 0;}
 
     /* Author List */
 
@@ -781,10 +784,14 @@ hr { width: 95%; border: none; border-top: 1px solid #D8D8D8; }
         background: #41A929;
         padding: 5px 20px;
         text-shadow: none;
-        font-size: 15px;
+        font-size: 14px;
         color: white;
         margin-left: -1px;
         font-family: 'PT_Sans';
+    }
+
+    .results-per-page > .active {
+        background-color: #41A929;
     }
     /* Like Button */
 
@@ -1164,6 +1171,9 @@ dd.tags a.tag-value {margin-right: 10px;}
     font-family: 'PT_Sans';
 }
 
+dt.author {
+    width: 50px!important;
+}
     /* Search */
 
 /* Page: Checkout */
