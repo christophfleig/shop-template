@@ -69,15 +69,63 @@
         {call Structure.Layout.Fullwidth}
 {/template}
 
+{template .Payment.Options}
+	{meta override=true}
+	{* Show only paypal as the default customer method *}
+	{call .Payment.PaypalBox}
+{/template}
+
+{template .Verification.Main}
+	{meta override=true}
+	{param use_invoice_address=_.shopping_cart.invoice_address && _.shopping_cart.invoice_address.use_invoice_address == 'YES'}
+
+	<section class="page-verification-main page-checkout-main cbox">
+
+		<span class="highlights">{NLS('Page::Checkout::StandardShop::Payment')}</span>
+
+		{Call .CheckoutSteps}
+			{param tab='verification'}
+		{/Call}
+
+		<section class="shoppingcart-items">
+			{call .Verification.Items}
+		</section>
+
+		<section class="totals">
+			{call .Shoppingcart.Totals}
+		</section>		
+
+		<span class="highlights">{NLS('Page::Checkout::StandardShop::PaymentMethod')}</span>
+
+		<section class="paymentmethod">
+			{call .Verification.PaymentMethod}
+		</section>
+
+		<section class="disclaimers">
+			{if GrinEnv.brand == 'hausarbeiten'}
+				{NLS('Page::ShoppingCart::RightOfWithdrawalHausarbeiten')}
+			{else}
+				{NLS('Page::ShoppingCart::RightOfWithdrawal')}
+			{/if}
+		</section>
+	</section>
+
+	<section class="page-verification-proceed page-checkout-proceed">
+		<form id="verification-form" method="post" action="{OPTION('base-href-pay_order')}">
+			<input type="hidden" name="account_id" value="{_._id}"/>
+			{call .SSLInfo}
+			<button class="call-to-action" type="submit" id="payment-trigger">
+				<span class="button-text">{NLS('Page::Commons::ConfirmTheOrder')}</span>
+				<span class="button-icon"></span>
+			</button>
+		</form>
+	</section>
+{/template}
+
 {template .Verification.Layout}
 		{meta override=true}
         {call Structure.Layout.Fullwidth}
 {/template}
 
-{template .Payment.Options}
-	{meta override=true}
-	{* Show only paypal as the default customer method *}
-	{call .Payment.PaypalBox}
 
-{/template}
 

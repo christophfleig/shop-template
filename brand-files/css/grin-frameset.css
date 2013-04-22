@@ -411,6 +411,7 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 
     .checkout-steps {
         border-bottom: 1px dashed #E5E5E5;
+        margin-top: 20px;
     }
 
     .highlights {
