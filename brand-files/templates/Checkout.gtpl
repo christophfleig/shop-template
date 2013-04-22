@@ -70,7 +70,7 @@
 					<div class="price-calculation">
 						{if item.quantity > 1}
 							<span class="quantity-calculation">
-								{item.quantity} x {item.amount_gross.formatted} = 
+								{item.quantity} x {NLS('orderitem::ebook')}{item.amount_gross.formatted} = 
 							</span>
 						{/if}
 						<span class="sum">{item.sum_gross.formatted}</span>
@@ -266,13 +266,13 @@
 					</div>
 
 					<div class="product-quantity">
-						<b>{item.quantity}</b> x {call .ShowType root=item.product}
+						<b>{item.quantity}</b> x {NLS('orderitem::ebook')}{call .ShowType root=item.product}
 					</div>
 
 					<div class="price-calculation">
 						{if item.quantity > 1}
 							<span class="quantity-calculation">
-								{item.quantity} x {item.amount_gross.formatted} = 
+								{item.quantity} x {NLS('orderitem::ebook')}{item.amount_gross.formatted} = 
 							</span>
 						{/if}
 						<span class="sum">{item.sum_gross.formatted}</span>
