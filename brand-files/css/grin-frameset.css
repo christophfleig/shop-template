@@ -470,6 +470,10 @@ background: url('http://christopher.grin.com/images/brand/7/wk_grin_com.jpg') 0p
         font-family: 'Bree Serif';
     }
 
+    .page-shoppingcart-main > section {
+        margin-right: -10px!important;
+    }
+
     /*.search-input {width: 160px; font-size: 110%; height: 20px; border: 1px solid; padding: 2px 20px 2px 2px; background: url('/images/icons/magnifier.png') no-repeat 165px 6px;}*/
 
     .page-search-middlesection > .meta > .heading1 {font-family: 'Bree Serif'; font-size: 20px;}
