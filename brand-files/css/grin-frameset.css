@@ -675,7 +675,7 @@ section.upload-banner-boxes { animation: target-show 1.0s 1; -webkit-animation: 
 
 .breadcrumbs { color: #6B6767; font-size: 0.9em; margin-top: 5px;}
 .cbox.tabbar { overflow: visible; }
-.cbox h2, .cbox h4 { width: auto; font-family: Regular, "Regular-ie", Arial, sans-serif; font-size: 2em!important; font-weight: normal!important; text-transform: uppercase; }
+.cbox h2, .cbox h4 { width: auto; font-family: 'Bree Serif'; font-size: 2em!important; font-weight: normal!important; text-transform: uppercase; }
 .cbox h3 { display: none;}
 .cbox h2  { color: #41A929;}
 .overview p { padding-left: 3px;}
@@ -1135,7 +1135,7 @@ dd.tags a.tag-value {margin-right: 10px;}
     .page-shoppingcart-heading .heading1 {font-family: Regular, "Regular-ie", Arial, sans-serif;font-weight: normal;text-transform: uppercase;font-size: 26px;}
     .page-shoppingcart-main .overview .heading1 {font-family: Regular, "Regular-ie", Arial, sans-serif;font-size: 22px;}
     .page-shoppingcart-main .shoppingcart-items {border-bottom: 0;}
-    .page-shoppingcart-main .shoppingcart-item .heading1 {border-bottom: none;font-family: inherit;font-size: 1.4em !important; text-transform: none;}
+    .page-shoppingcart-main .shoppingcart-item .heading1 {border-bottom: none;font-family: 'Bree Serif';font-size: 1.4em !important; text-transform: none;}
     .page-shoppingcart-main .shoppingcart-items .shoppingcart-item .meta .heading1 a:link,
     .page-shoppingcart-main .shoppingcart-items .shoppingcart-item .meta .heading1 a:visited {width: 90%;color: #000;}
     .page-shoppingcart-main .shoppingcart-items .shoppingcart-item .meta .heading1 a:hover {color: #289d1f;}
