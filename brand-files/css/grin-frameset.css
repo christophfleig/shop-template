@@ -405,6 +405,10 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
         border-top: 1px dashed #E5E5E5;
     }
 
+    .page-payment-main .overview .heading1 {
+        font-family: 'PT_Sans'!important;
+    }
+
     .checkout-steps {
         border-bottom: 1px dashed #E5E5E5;
     }

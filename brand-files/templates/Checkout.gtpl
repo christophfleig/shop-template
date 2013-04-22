@@ -41,6 +41,28 @@
 	{/if}
 {/template}
 
+{template .Payment.Main}
+	<form id="payment-form" class="page-payment-main page-checkout-main" onsubmit="return false;" action="javascript:void(0);">
+		<section class="cbox">
+			<span class="highlights">{NLS('Page::Checkout::StandardShop::Payment')}</span>
+			{Call .CheckoutSteps}
+				{param tab='payment'}
+			{/Call}
+
+			<section class="payment-section">
+					{call .Payment.Options}
+			</section>
+		</section>
+		<section class="page-addresses-proceed page-checkout-proceed">
+			{call .SSLInfo}
+			<button class="call-to-action" type="submit" id="payment-trigger">
+				<span class="button-text">{NLS('Page::Checkout::ContinueCheckout')}</span>
+				<span class="button-icon"></span>
+			</button>
+		</section>
+	</form>
+{/template}
+
 {template .Payment.Layout}
 		{meta override=true}
         {call Structure.Layout.Fullwidth}
@@ -51,3 +73,8 @@
         {call Structure.Layout.Fullwidth}
 {/template}
 
+{template .Payment.Options}
+	{* Show only paypal as the default customer method *}
+	{call .Payment.PaypalBox}
+
+{/template}
