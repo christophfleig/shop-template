@@ -208,12 +208,14 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
     padding: 18px 0px;
 }
 .986px .identity { padding: 10px 0 12px 0px; color: #737373;}
+
 .identity {
-     display: inline-block; 
-     color: #3AB54B!important;
-     font-weight: bold;
-     font-size: 16px;
-     font-family: 'Bree Serif';
+    display: inline-block; 
+    color: #3AB54B!important;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Bree Serif';
+    padding: 10px 0px 10px 0px;
 }
 .search { /*width: 298px;*/ background: transparent; border-radius: 20px; /*float: left;*/ position: relative; /*top: -3px; margin-right: 25px;*/ display: inline-block; margin: 0px 55px; }
 .search-input { border-radius: 20px; width: 258px; background: url("$BRANDIMGPATH$/grin-lupe.png") no-repeat 270px 1px; border: 1px solid #C1C1C1; padding: 2px 20px 2px 20px; }
