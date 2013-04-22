@@ -48,9 +48,6 @@
 	{meta override=true}
 	<form id="payment-form" class="page-payment-main page-checkout-main" onsubmit="return false;" action="javascript:void(0);">
 		<section class="cbox">
-		{Call Widget.BreadCrumbs.Main root=_.non_academic.realm_genre}
-      {param link_last_item=true}
-    {/Call}
 			{*{Call Widget.BreadCrumbs.Main}
       			{param link_last_item=true}
     		{/Call}*}
