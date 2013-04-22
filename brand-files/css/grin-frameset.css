@@ -1143,6 +1143,7 @@ dd.tags a.tag-value {margin-right: 10px;}
 /* Page: Checkout */
 
     /* Shopping cart */
+    .page-verification-main .shoppingcart-item .heading1 { font-size: 1.4em !important;}
     .picture-related { width: 108px!important; height: 171px!important;}
     .page-shoppingcart-heading .heading1 {font-family: Regular, "Regular-ie", Arial, sans-serif;font-weight: normal;text-transform: uppercase;font-size: 26px;}
     .page-shoppingcart-main .overview .heading1 {font-family: Regular, "Regular-ie", Arial, sans-serif;font-size: 22px;}
