@@ -1,10 +1,12 @@
 {namespace Page.Catalog}
 
 {template .Heading}
+{meta override=true}
 	{call Widget.BreadCrumbs.Main}
 {/template}
 
 {template .Main}
+{meta override=true}
 	<ul class="cbox page-catalog-main">
 		{if _.children}
 			{call .Sub_Subjects}
@@ -17,6 +19,7 @@
 {/template}
 
 {template .Realm_Genres}
+{meta override=true}
 	{foreach realm_genre in _.genres.sort(keyComparator('url_path'))}
 		<li class="realm_genre catalog-item">
 			<h3 class="title">
@@ -30,6 +33,7 @@
 {/template}
 
 {template .Sub_Subjects}
+{meta override=true}
 	{foreach subject in _.children.sort(keyComparator('catalog_sortstring'))}
 		{if subject.count_documents > 0}
 			<li class="subject catalog-item">
