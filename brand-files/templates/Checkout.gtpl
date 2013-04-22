@@ -45,7 +45,6 @@
 	{meta override=true}
 	<form id="payment-form" class="page-payment-main page-checkout-main" onsubmit="return false;" action="javascript:void(0);">
 		<section class="cbox">
-			<span class="highlights">{NLS('Page::Checkout::StandardShop::Payment')}</span>
 			{Call .CheckoutSteps}
 				{param tab='payment'}
 			{/Call}
