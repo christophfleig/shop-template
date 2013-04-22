@@ -81,8 +81,6 @@
 
 	<section class="page-verification-main page-checkout-main cbox">
 
-		<span class="highlights">{NLS('Page::Checkout::StandardShop::Payment')}</span>
-
 		{Call .CheckoutSteps}
 			{param tab='verification'}
 		{/Call}
@@ -157,3 +155,53 @@
 	<a href="{OPTION('base-href-checkout-payment')}" class="changelink poi" grin:poi="PAYMENT_CLICK_CHANGE_PAYMENTMETHOD">{NLS('Page::Commons::Change')}</a>
 {/template}
 
+{template .CheckoutSteps}
+{meta override=true}
+	{param current_step = 0}
+
+	<nav class="checkout-steps">
+	<span class="highlights">{NLS('Page::Checkout::StandardShop::Payment')}</span>
+		{if _.shopping_cart.needs_shipping_address}
+			{if _p.tab=='address'}
+				<div class="checkout-step shipping-address selected">
+					<span class="step-no">{++_p.current_step}</span>
+					<span class="step-name">{NLS('Page::ShoppingCart::YourShippingAddress')}</span>
+				</div>
+			{else}
+				<a href="{OPTION('base-href-checkout-addresses')}" class="checkout-step shipping-address">
+					<span class="step-no">{++_p.current_step}</span>
+					<span class="step-name">{NLS('Page::ShoppingCart::YourShippingAddress')}</span>
+				</a>
+			{/if}
+		{/if}
+
+		{if _p.tab == 'address'}
+			<div class="checkout-step payment">
+				<span class="step-no">{++_p.current_step}</span>
+				<span class="step-name">{NLS('Page::Checkout::ChoosePaymentMethod')}</span>
+			</div>
+		{elseif _p.tab == 'payment'}
+			<div class="checkout-step payment selected">
+				<span class="step-no">{++_p.current_step}</span>
+				<span class="step-name">{NLS('Page::Checkout::ChoosePaymentMethod')}</span>
+			</div>
+		{elseif _p.tab=='verification'}
+			<a href="{OPTION('base-href-checkout-payment')}" class="checkout-step payment">
+				<span class="step-no">{++_p.current_step}</span>
+				<span class="step-name">{NLS('Page::Checkout::ChoosePaymentMethod')}</span>
+			</a>
+		{/if}
+
+		{if _p.tab == 'verification'}
+			<div class="checkout-step verification selected">
+				<span class="step-no">{++_p.current_step}</span>
+				<span class="step-name">{NLS('Page::Checkout::VerifyOrder')}</span>
+			</div>
+		{else}
+			<div class="checkout-step verification">
+				<span class="step-no">{++_p.current_step}</span>
+				<span class="step-name">{NLS('Page::Checkout::VerifyOrder')}</span>
+			</div>
+		{/if}
+	</nav>
+{/template}

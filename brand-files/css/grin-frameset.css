@@ -420,6 +420,7 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
         font-weight: bold;
         display: block;
         font-family: 'Bree Serif';
+        margin-bottom: 15px;
     }
 
     .safe-payment {
@@ -441,6 +442,8 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 
     .disclaimers p b {
         font-family: 'Bree Serif';
+        font-size: 110%!important;
+        margin-bottom: 15px;
     }
 
     .heading1 {
