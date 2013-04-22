@@ -457,6 +457,7 @@ background: url('http://christopher.grin.com/images/brand/7/wk_grin_com.jpg') 0p
     .sp-highlight {
         color: #41A929;
         font-weight: bold;
+        font-family: 'Bree Serif';
     }
 
     .disclaimers p b {
@@ -779,6 +780,7 @@ hr { width: 95%; border: none; border-top: 1px solid #D8D8D8; }
         font-size: 15px;
         color: white;
         margin-left: -1px;
+        font-family: 'PT_Sans';
     }
     /* Like Button */
 
@@ -819,7 +821,7 @@ input[type="radio"], input[type="checkbox"] {margin-right: 4px;}
 .page-document-top {position: relative;}
 .page-document-top > .meta .buybox {margin-top: 15px;}
 .page-document-top > .section {float: left;}
-.page-document-top  .meta .heading1 {line-height: 1em;margin: 0 0 15px 0 !important;font-family: Regular, "Regular-ie", Arial, sans-serif;font-size: 22px;font-weight: normal;color: #282828;text-align: left !important;}
+.page-document-top  .meta .heading1 {line-height: 1em;margin: 0 0 15px 0 !important;font-family: 'Bree Serif'; font-size: 22px;font-weight: normal;color: #282828;text-align: left !important;}
 .page-document-top  .meta .heading2.subtitle {margin-bottom: 15px;}
 .page-document-top  .meta .subject {margin-top: 5px;}
 .page-user-top > .social .socialShareItem { float: left; margin-right: 15px; }
@@ -830,7 +832,7 @@ input[type="radio"], input[type="checkbox"] {margin-right: 4px;}
 .page-document .document-upload-banner {
     box-shadow:inset 3px 3px 8px rgba(0, 0, 0, 0.18), inset -3px -3px 8px rgba(0, 0, 0, 0.18);
     position: relative; margin-left: 0px; margin-top: -5px; display:block; width: 985px; height: 60px; background-image: url('/images/banners/blue_banner.jpg'); display: none; }
-.page-document .document-upload-banner .info {text-shadow: -2px 0 2px rgba(65, 94, 105, 0.58); padding: 15px 20px; !important;font-family: Regular, "Regular-ie", Arial, sans-serif;font-size: 22px;font-weight: normal;color:white;}
+.page-document .document-upload-banner .info {text-shadow: -2px 0 2px rgba(65, 94, 105, 0.58); padding: 15px 20px; !important;font-family: 'Bree Serif';font-size: 22px;font-weight: normal;color:white;}
 .page-document .document-upload-banner .linkbutton {
     text-shadow: -2px 0 2px rgba(65, 94, 105, 0.58);
     position: absolute;
@@ -840,7 +842,7 @@ input[type="radio"], input[type="checkbox"] {margin-right: 4px;}
     background-color: green;
     height: 30px;
     padding: 10px 20px 0 20px;
-    font-family: Regular, "Regular-ie", Arial, sans-serif;
+    font-family: 'Bree Serif';
     color: white!important;
     text-decoration: none;
     font-size: 20px;
