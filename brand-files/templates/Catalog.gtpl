@@ -47,3 +47,7 @@
 		{/if}
 	{/foreach}
 {/template}
+
+{template .Sub_Subjects.Layout}
+  {call Structure.Layout.LeftSidebar}
+{/template}
