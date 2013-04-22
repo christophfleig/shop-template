@@ -175,7 +175,7 @@ a {
 /* font styles */
 
 
-.page {z-index: 1; overflow:hidden; background: #FFFFFF !important;}
+.page {z-index: 1; overflow:hidden; background: #FFFFFF !important; min-height: 800px;}
 .left-sidebar .main {float: right; overflow: visible; width: 78%;}
 .right-sidebar .heading {padding-top:10px; background: #FFFFFF;}
 
@@ -416,8 +416,9 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 
     .highlights {
         color: #41A929;
-        font-size: 14px;
+        font-size: 120%;
         font-weight: bold;
+        display: block;
     }
 
     .safe-payment {
@@ -1176,7 +1177,7 @@ dd.tags a.tag-value {margin-right: 10px;}
 
     .page-verification-proceed .ssl-info {
         position: absolute;
-        top: 10px;
+        top: 48px;
         width: 300px;
         right: -20px;
     }

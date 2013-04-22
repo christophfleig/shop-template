@@ -95,8 +95,6 @@
 			{call .Shoppingcart.Totals}
 		</section>		
 
-		<span class="highlights">{NLS('Page::Checkout::StandardShop::PaymentMethod')}</span>
-
 		<section class="paymentmethod">
 			{call .Verification.PaymentMethod}
 		</section>
@@ -127,5 +125,39 @@
         {call Structure.Layout.Fullwidth}
 {/template}
 
-
+{template .Verification.PaymentMethod}
+{meta override=true}
+	<span class="highlights">{NLS('Page::Checkout::PaymentDetails')}</h3>
+	<p class="meta">
+		{if _.shopping_cart.payment_type == 'BANKACCOUNT'}
+			<b class="method">{NLS('Page::Checkout::Debit')}</b>
+			<br/>
+			{NLS('Page::EditAccountDetails::AccountHolder')}:&nbsp;{_.shopping_cart.payment_data_bankaccount.holder} <br/>
+			{NLS('Page::Commons::AccountNumber')}: &nbsp;{_.shopping_cart.payment_data_bankaccount.de_number} 
+			<br/>
+			{NLS('Page::Commons::BankCode')}:&nbsp;{_.shopping_cart.payment_data_bankaccount.de_bank_code}
+		{elseif _.shopping_cart.payment_type == 'CREDITCARD'}
+			<b class="method">{NLS('Page::Checkout::CreditCard')}</b>
+			<br/>
+			{if _.shopping_cart.payment_data_creditcard.type == 'VISA'}
+				Visa
+			{elseif _.shopping_cart.payment_data_creditcard.type == 'MASTERCARD'}
+				MasterCard
+			{else}
+				American Express
+			{/if}
+			<br/>
+			{_.shopping_cart.payment_data_creditcard.truncated_card_pan}
+		{elseif _.shopping_cart.payment_type == 'PAYPAL'}
+			{img('/commons/logo-paypal.gif')}
+			<br/>
+			{NLS('Page::Checkout::PaypalLongInfo')}
+		{elseif _.shopping_cart.payment_type == 'CLICKANDBUY'}
+			{img('/commons/logo-clickandbuy.gif')}
+			<br/>
+			{NLS('Page::Checkout::ClickandBuyLongInfo')}
+		{/if}
+	</p>
+	<a href="{OPTION('base-href-checkout-payment')}" class="changelink poi" grin:poi="PAYMENT_CLICK_CHANGE_PAYMENTMETHOD">{NLS('Page::Commons::Change')}</a>
+{/template}
 
