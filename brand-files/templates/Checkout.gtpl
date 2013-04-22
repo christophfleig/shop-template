@@ -45,6 +45,7 @@
 	{meta override=true}
 	<form id="payment-form" class="page-payment-main page-checkout-main" onsubmit="return false;" action="javascript:void(0);">
 		<section class="cbox">
+			{call .SSLInfo}
 			{Call .CheckoutSteps}
 				{param tab='payment'}
 			{/Call}
@@ -54,7 +55,6 @@
 			</section>
 		</section>
 		<section class="page-addresses-proceed page-checkout-proceed">
-			{call .SSLInfo}
 			<button class="call-to-action" type="submit" id="payment-trigger">
 				<span class="button-text">{NLS('Page::Checkout::ContinueCheckout')}</span>
 				<span class="button-icon"></span>
