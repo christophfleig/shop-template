@@ -44,6 +44,43 @@
 	{/if}
 {/template}
 
+{template .Shoppingcart.Items}
+	{meta override=true}
+	<ul>
+		{foreach item in _.document_transactions}
+			<li class="shoppingcart-item">
+				<div class="picturebox">
+					<a  href="{item.product.object.grin_url}" class="poi" grin:poi="CLICK_PRODUCT_IN_SHOPPINGCART">
+						{picture(item.product.object, 'related')}
+					</a>
+				</div>
+
+				<div class="meta">
+					<h4 class="heading1">
+						<a href="{item.product.object.grin_url}" class="poi" 
+							grin:poi="CLICK_PRODUCT_IN_SHOPPINGCART">
+							{item.product.object.title}
+						</a>
+					</h4>
+
+					{Call .Shoppingcart.ItemForms root=item}
+						{param account_id=_._id}
+					{/Call}
+
+					<div class="price-calculation">
+						{if item.quantity > 1}
+							<span class="quantity-calculation">
+								{item.quantity} x {item.amount_gross.formatted} = 
+							</span>
+						{/if}
+						<span class="sum">{item.sum_gross.formatted}</span>
+					</div>
+				</div>
+			</li>
+		{/foreach}
+	</ul>
+{/template}
+
 {template .Payment.Main}
 	{meta override=true}
 	<form id="payment-form" class="page-payment-main page-checkout-main" onsubmit="return false;" action="javascript:void(0);">
@@ -211,4 +248,37 @@
 			</div>
 		{/if}
 	</nav>
+{/template}
+
+{template .Verification.Items}
+{meta override=true}
+	<h3 class="heading1">{NLS('Page::ShoppingCart::Title')}</h3>
+	<ul>
+		{foreach item in _.document_transactions}
+			<li class="shoppingcart-item">
+				<div class="picturebox">
+					{picture(item.product.object, 'thumb')}
+				</div>
+
+				<div class="meta">
+					<div class="heading1">
+						{item.product.object.title}
+					</div>
+
+					<div class="product-quantity">
+						<b>{item.quantity}</b> x {call .ShowType root=item.product}
+					</div>
+
+					<div class="price-calculation">
+						{if item.quantity > 1}
+							<span class="quantity-calculation">
+								{item.quantity} x {item.amount_gross.formatted} = 
+							</span>
+						{/if}
+						<span class="sum">{item.sum_gross.formatted}</span>
+					</div>
+				</div>
+			</li>
+		{/foreach}
+	</ul>
 {/template}
