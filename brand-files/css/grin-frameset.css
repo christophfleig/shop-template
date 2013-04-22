@@ -1124,7 +1124,9 @@ dd.tags a.tag-value {margin-right: 10px;}
 
 
 /* Page: Search */
-
+.search .main-search-widget input[type="text"] {
+    font-family: 'PT_Sans';
+}
 
     /* Search */
 
