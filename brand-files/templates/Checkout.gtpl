@@ -81,6 +81,54 @@
 	</ul>
 {/template}
 
+{template .Shoppingcart.ItemForms}
+{meta override=true}
+	<div class="item-forms foldable">
+		<div class="item-forms-view foldable-container reverse-container" grin:slide="no">
+			<div class="product-quantity">
+				<b>{_.quantity}</b> x {NLS('orderitem::ebook')}{call .ShowType root=_.product}
+			</div>
+			
+			{if _.product.publication_type == 'BOOK'}
+				<div class="edit-quantity-trigger">
+					<a href="javascript:void(0)" class="foldable-trigger">{NLS('Page::Commons::ChangeQuantity')}</a>
+				</div>
+			{/if}
+
+			<form class="delete-form" method="post" action="{OPTION('base-href-shoppingcart')}">
+				<input type="hidden" name="account_transaction_id" value="{_._id}"/>
+				<input type="hidden" name="account_id" value="{_p.account_id}"/>
+				<input type="hidden" name="method" value="delete"/>
+				<button type="submit" value="delete">
+					<span>{NLS('Page::Commons::Delete')}</span>
+				</button>
+			</form>
+		</div>
+
+		<form class="item-forms-editor foldable-container" method="post" action="{OPTION('base-href-shoppingcart')}" grin:slide="no">
+			<input type="hidden" name="reference_id" value="{_.product.reference_id}"/>
+			<input type="hidden" name="source_type" value="{_.product.source_type}"/>
+			<input type="hidden" name="reference_id_specification" value="{_.product.reference_id_specification}"/>
+			<input type="hidden" name="method" value="change"/>
+			<input type="hidden" name="product" value="{_.product.product}"/>
+			<input type="hidden" name="account_transaction_id" value="{_._id}"/>
+			<input type="hidden" name="account_id" value="{_p.account_id}"/>
+
+			<label for="quantity">{NLS('Page::Commons::Quantity')}</label> 
+			<select name="quantity">
+				{foreach i in list(range(1,11))}
+					<option value="{i}" {if _.quantity == i}selected="selected"{/if}>{i}</option> 
+				{/foreach}
+			</select>
+
+			<button type="submit" name="submit">
+				<span>{NLS('Page::Commons::Save')}</span>
+			</button>
+			<a class="cancel-trigger foldable-trigger" href="javascript:void(0);">{NLS('Page::Commons::Cancel')}</a>
+		</form>
+	</div>
+{/template}
+
 {template .Payment.Main}
 	{meta override=true}
 	<form id="payment-form" class="page-payment-main page-checkout-main" onsubmit="return false;" action="javascript:void(0);">
