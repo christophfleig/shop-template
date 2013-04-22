@@ -109,6 +109,7 @@
 body {
     padding-top: 80px;
     font-family: 'PT_Sans';
+    font-size: 14px;
 }
 
 .header, .nav, .visual, .page, .footer, .popup-container {margin: 0px auto;}
@@ -204,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Regular, "Regular-ie", Arial, sans-serif;}
     background: white;
     width: 986px;
     margin: auto;
-    padding: 20px 0px;
+    padding: 19px 0px;
 }
 .986px .identity { padding: 10px 0 12px 0px; color: #737373;}
 .identity {
@@ -363,6 +364,10 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
         display: inline-block;
     }
 
+    .objectlist .objectlist-item .heading1 {
+        font-family: 'Bree Serif';
+    }
+
     .pagination {
         font-size: 15px;
     }
@@ -376,7 +381,7 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
     }
 
     .misc {
-        margin-bottom: 60px;
+        margin-bottom: 33px;
     }
 
     .page-checkout-main .totals {
