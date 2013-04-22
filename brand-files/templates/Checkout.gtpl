@@ -100,11 +100,7 @@
 		</section>
 
 		<section class="disclaimers">
-			{if GrinEnv.brand == 'hausarbeiten'}
-				{NLS('Page::ShoppingCart::RightOfWithdrawalHausarbeiten')}
-			{else}
-				{NLS('Page::ShoppingCart::RightOfWithdrawal')}
-			{/if}
+			{NLS('Page::ShoppingCart::RightOfWithdrawal')}
 		</section>
 	</section>
 
@@ -127,7 +123,7 @@
 
 {template .Verification.PaymentMethod}
 {meta override=true}
-	<span class="highlights">{NLS('Page::Checkout::PaymentDetails')}</h3>
+	<span class="highlights">{NLS('Page::Checkout::PaymentDetails')}</span>
 	<p class="meta">
 		{if _.shopping_cart.payment_type == 'BANKACCOUNT'}
 			<b class="method">{NLS('Page::Checkout::Debit')}</b>

@@ -416,9 +416,10 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 
     .highlights {
         color: #41A929;
-        font-size: 120%;
+        font-size: 110%;
         font-weight: bold;
         display: block;
+        font-family: 'Bree Serif';
     }
 
     .safe-payment {
