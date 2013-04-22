@@ -175,7 +175,7 @@ a {
 /* font styles */
 
 
-.page {z-index: 1; overflow:hidden; background: #FFFFFF !important; min-height: 800px;}
+
 .left-sidebar .main {float: right; overflow: visible; width: 78%;}
 .right-sidebar .heading {padding-top:10px; background: #FFFFFF;}
 
@@ -667,7 +667,7 @@ section.upload-banner-boxes { animation: target-show 1.0s 1; -webkit-animation: 
 }
 
 /* Misc */
-.page { overflow: visible; width: 986px; position:relative;}
+.page {z-index: 1; overflow: hidden; background: #FFFFFF !important; min-height: 800px; width: 986px; position:relative;}
 .dynamic-pagecontainer { background: #FFFFFF!important;}
 .page-topics-item, .page-subjects-item { width: 50%; height: 50px; padding: 10px 0; border-bottom: 1px solid #E5E5E5; float: left; color: #B3B3B3; }
 .page-topics-item a { text-decoration: none; }
