@@ -75,11 +75,11 @@
 		<div class="column">
 			<div class="footer-1st-element">{NLS('Page::StandardShop::About::Contact')}</div>
 			<ul>
-				<li>{link_to_static(NLS('Help::StandardShop::CompanyName'),'',null)}</li>
-				<li>{link_to_static(NLS('Help::StandardShop::Street'),'',null)}</li>
-				<li>{link_to_static((NLS('Help::StandardShop::PLZ')NLS('Help::Customer::Town')),'',null)}</li>
-				<li>{link_to_static(NLS('Help::StandardShop::Telephon')}{NLS('Help::Customer::Telephonenumber'),'',null)}</li>
-				<li>{link_to_static(NLS('Help::StandardShop::Mail')}{NLS('Help::Customer::Mailto'),'',null)}</li>
+				<li>{NLS('Help::StandardShop::CompanyName')}</li>
+				<li>{NLS('Help::StandardShop::Street')}</li>
+				<li>{NLS('Help::StandardShop::PLZ')}{NLS('Help::Customer::Town')}</li>
+				<li>{NLS('Help::StandardShop::Telephon')}{NLS('Help::Customer::Telephonenumber')}</li>
+				<li>{NLS('Help::StandardShop::Mail')}{NLS('Help::Customer::Mailto')}</li>
 			</ul>
 		</div>
 		<div class="column">
