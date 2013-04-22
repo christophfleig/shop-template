@@ -239,7 +239,7 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 }
 
 .top-info .top-shopping-cart { top: -10px; margin-top: 10px; width: 300px; left: 70px; border: none; padding: 0px; /*border-right: 1px solid #EDEDED;*/ height: 45px; background: url('$BRANDIMGPATH$/wk_grin_com.jpg') 0px 13px no-repeat; }
-.top-info .user-info { position: absolute; left: 420px; top: 7px; display: none!important; }
+.top-info .user-info { position: absolute; left: 420px; top: 7px;}
 #language-select-span { left: -70px !important; top: -8px; z-index: 200; border: 1px solid #DDD; border-left: 1px solid #EDEDED; background: white url('/images/icons/down-arrow.png') 95px 19px no-repeat; text-align: center; width: 115px; height: 30px; padding: 15px 0 0 0; color: #737373; }
 .top-info .top-login { left: 46px; width: 120px; height: 15px; z-index: 200; top: -7px; padding: 15px 0px 15px 0px; border: 1px solid #DDD; border-left: 1px solid #EDEDED; border-top-right-radius: 5px; border-bottom-right-radius: 5px; background: white; text-align: center; }
 .top-info .top-login > a {padding-right: 0;}
