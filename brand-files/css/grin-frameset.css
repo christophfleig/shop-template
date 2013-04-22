@@ -793,6 +793,15 @@ hr { width: 95%; border: none; border-top: 1px solid #D8D8D8; }
     .results-per-page > .active {
         background-color: #41A929;
     }
+
+    b.heading1 {
+        color: #41A929;
+        font-size: 16px;
+    }
+
+    .page-checkout-main .shoppingcart-items {
+        border-bottom: none!important;
+    }
     /* Like Button */
 
 /* Comments */
@@ -1179,6 +1188,13 @@ dt.author {
 /* Page: Checkout */
 
     /* Shopping cart */
+    .page-verification-main .shoppingcart-item {
+        border-bottom: 1px dashed #E5E5E5;
+    }
+
+    .page-verification-main .shoppingcart-item:nth-child(odd) {
+        background-color: #F7F7F7;
+    }
     .page-verification-main .shoppingcart-item .heading1 { font-size: 1.4em !important;}
     .picture-related { width: 108px!important; height: 171px!important;}
     .page-shoppingcart-heading .heading1 {font-family: Regular, "Regular-ie", Arial, sans-serif;font-weight: normal;text-transform: uppercase;font-size: 26px;}
